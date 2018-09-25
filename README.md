@@ -11,7 +11,8 @@ This site is based on
 * [Tippy.js v3.0.1](https://atomiks.github.io/tippyjs/)
 * A template page by Brady Wright (http://codepen.io/phasethree/pen/NNOvrW)
 
-The license of the template is described in `template-license.txt`.
+The license of the page template is described in `template-license.txt`.  
+The favicon made by [Smashicons](https://www.flaticon.com/authors/smashicons) from www.flaticon.com is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/). It is converted via https://www.favicon-generator.org.
 
 
 ## Data Collection
