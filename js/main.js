@@ -79,7 +79,7 @@ function fill_conferences(data) {
 }
 
 function load_contributors() {
-    $.get('/data/contributors.json', function(data) {
+    $.get('data/contributors.json', function(data) {
         let elem = $('#contributors');
         let first = true;
         let contributors = data;
@@ -110,7 +110,7 @@ function load_contributors() {
 }
 
 function load_works() {
-    $.get('/data/works.json', function(data) {
+    $.get('data/works.json', function(data) {
         let works = data;
         works.sort((a, b) => getDate(b.dates[0]) - getDate(a.dates[0]));
         fill_works(works);
@@ -120,7 +120,7 @@ function load_works() {
 }
 
 function load_conferences() {
-    $.get('/data/conferences.json', function(data) {
+    $.get('data/conferences.json', function(data) {
         let conferences = data;
         let conferences_array = preprocess(conferences);
         fill_conferences(conferences_array);
