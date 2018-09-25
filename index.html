@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Deep Learning Chronicles</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'> -->
+  <link rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/vendor/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="/vendor/css/themes/light.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <style type="text/css">
+.auto-textbox-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.auto-textbox-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+#scroll-to-top {
+  position: fixed;
+  /* center the element */
+  left: 50%;
+  width: auto;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  /* float from bottom */
+  bottom: 1rem;
+  /* pointer cursor */
+  cursor: pointer;
+  display: none;
+  /* arrow and background */
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+  background-color: #ffffff;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  border-radius: 3rem;
+  box-shadow: 0px 1px 3px grey;
+}
+#scroll-to-top i {
+  -webkit-transform: translate(30%, -25%);
+  -moz-transform: translate(30%, -25%);
+  -ms-transform: translate(30%, -25%);
+  -o-transform: translate(30%, -25%);
+  transform: translate(30%, -25%);
+}
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
+  </style>
+
+</head>
+
+<body>
+  <script src="https://use.typekit.net/bkt6ydm.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <header class="example-header" id="page-header">
+    <h1 class="text-center">Deep Learning Chronicle</h1>
+    <p>Contributed by <span id="contributors"></span></p>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav mr-auto mt-2 navbar-center">
+          <li class="nav-item">
+            <a class="nav-link" href="/?cate=works">
+              Works&nbsp;&nbsp;<i class="far fa-paper-plane"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link">
+              ·
+            </span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/?cate=conferences">
+              Conferences&nbsp;&nbsp;<i class="fas fa-users"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link">
+              ·
+            </span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Contribute&nbsp;&nbsp;<i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="container-fluid" id="page-content">
+    <div class="row example-centered">
+      <div class="col-md-12 example-title">
+        <h2>Title</h2>
+        <p>Some descriptions.</p>
+      </div>
+      <!-- <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2"> -->
+      <div class="col-xs-10 offset-xs-1 col-sm-8 offset-sm-2">
+        <ul class="timeline timeline-centered" id="timeline-container">
+        </ul>
+      </div>
+    </div>
+  </div>
+  <a href="#" id="scroll-to-top"><i class="fas fa-angle-up"></i></a>
+
+  <template id="timeline-item-template">
+    <li class="timeline-item">
+      <div class="timeline-info">
+        <span></span><br/>
+        <span></span><br/>
+        <span></span>
+      </div>
+      <div class="timeline-marker"></div>
+      <div class="timeline-content">
+        <h3 class="timeline-title">Event Title</h3>
+        <p></p>
+        <p></p>
+        <p></p>
+        <a href="#"></a>
+      </div>
+    </li>
+  </template>
+
+  <template id="timeline-period-template">
+    <li class="timeline-item period">
+      <div class="timeline-info"></div>
+      <div class="timeline-marker"></div>
+      <div class="timeline-content">
+        <h2 class="timeline-title">April 2016</h2>
+      </div>
+    </li>
+  </template>
+
+  <script src="/vendor/js/jquery-3.3.1.min.js"></script>
+  <script src="/vendor/js/tippy.all.min.js"></script>
+  <script src="/vendor/js/bootstrap.min.js"></script>
+  <script src="/js/main.js"></script>
+  
+</body>
+</html>

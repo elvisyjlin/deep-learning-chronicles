@@ -1,0 +1,84 @@
+name,source,url
+MLP,DTIC,http://www.dtic.mil/docs/citations/AD0256582
+Backpropagation,DTIC,http://www.dtic.mil/docs/citations/ADA164453
+Non-Linearity,MCSS,https://link.springer.com/article/10.1007/BF02551274
+Activation Functions,Book,https://dl.acm.org/citation.cfm?id=541500
+RBM,ICML 2007,https://dl.acm.org/citation.cfm?id=1273596
+Denoising Auto-Encoder,ICML 2008,https://dl.acm.org/citation.cfm?id=1390294
+DBN,Scholarpedia,http://scholarpedia.org/article/Deep_belief_networks
+AlexNet,NIPS 2012,https://dl.acm.org/citation.cfm?id=2999257
+DQN,NIPS Deep Learning Workshop 2013,https://arxiv.org/abs/1312.5602
+Word2Vec (CBOW),NIPS 2013,https://arxiv.org/abs/1301.3781
+Word2Vec (Skip-Gram),NIPS 2013,https://arxiv.org/abs/1310.4546
+Deep Auto-Encoder,TPAMI 2013,https://arxiv.org/abs/1206.5538
+ImageNet,Arxiv,https://arxiv.org/abs/1409.0575
+GAN,NIPS 2014,https://arxiv.org/abs/1406.2661
+VAE,ICLR 2014,https://arxiv.org/abs/1312.6114
+GloVe,EMNLP 2014,https://aclanthology.coli.uni-saarland.de/papers/D14-1162/d14-1162
+DRQN,AAAI 2015,https://arxiv.org/abs/1507.06527
+U-Net,MICCAI 2015,https://arxiv.org/abs/1505.04597
+VGGNet,ICLR 2015,https://arxiv.org/abs/1409.1556
+Inception-v1,CVPR 2015,https://arxiv.org/abs/1409.4842
+Batch Normalization,Arxiv,https://arxiv.org/abs/1502.03167
+Adversarial Autoencoders,Arxiv,https://arxiv.org/abs/1511.05644
+Dualing Network,Arxiv,https://arxiv.org/abs/1511.06581
+Pointer Networks,NIPS 2015,https://arxiv.org/abs/1506.03134
+"FCN-8s,16s,32s",CVPR 2015,https://arxiv.org/abs/1411.4038
+fastText,Arxiv,https://arxiv.org/abs/1607.01759
+Double DQN,AAAI 2016,https://arxiv.org/abs/1509.06461
+SWWAE,ICLR 2016,https://arxiv.org/abs/1506.02351
+DCGAN,ICLR 2016,https://arxiv.org/abs/1511.06434
+text2image,ICML 2016,https://arxiv.org/abs/1605.05396
+DDPG,ICML 2016,https://arxiv.org/abs/1509.02971
+A3C,ICML 2016,https://arxiv.org/abs/1602.01783
+Infogan,NIPS 2016,https://arxiv.org/abs/1606.03657
+ResNet,CVPR 2016,https://arxiv.org/abs/1512.03385
+"Inception-v2,v3",CVPR 2016,https://arxiv.org/abs/1512.00567
+Instance Normalization,Arxiv,https://arxiv.org/abs/1607.08022
+W-Net,Arxiv,https://arxiv.org/abs/1711.08506
+Pointer-Generator Networks,ACL 2017,https://arxiv.org/abs/1704.04368
+fastText,ICLR 2017,https://arxiv.org/abs/1612.03651
+fastText,TACL 2017,https://arxiv.org/abs/1607.04606
+ACGAN,ICML 2017,https://arxiv.org/abs/1610.09585
+LSGAN,ICCV 2017,https://arxiv.org/abs/1611.04076
+WGAN,Arxiv,https://arxiv.org/abs/1701.07875
+WGAN-GP,NIPS 2017,https://arxiv.org/abs/1704.00028
+Transformer,NIPS 2017,https://arxiv.org/abs/1706.03762
+pix2pix,CVPR 2017,https://arxiv.org/abs/1611.07004
+Xception,CVPR 2017,https://arxiv.org/abs/1610.02357
+BEGAN,Arxiv,https://arxiv.org/abs/1703.10717
+DRAGAN,Arxiv,https://arxiv.org/abs/1705.07215
+DiscoGAN,ICML 2017,https://arxiv.org/abs/1703.05192
+SqueezeNet,Arxiv,https://arxiv.org/abs/1602.07360
+CycleGAN,ICCV 2017,https://arxiv.org/abs/1703.10593
+DualGAN,ICCV 2017,https://arxiv.org/abs/1704.02510
+StackGAN,ICCV 2017,https://arxiv.org/abs/1612.03242
+"Inception-v4, Inception-ResNet",AAAI 2017,https://arxiv.org/abs/1602.07261
+Adversarial Variational Bayes,Arxiv,https://arxiv.org/abs/1701.04722
+Rainbow,AAAI 2018,https://arxiv.org/abs/1710.02298
+StarGAN,CVPR 2018,https://arxiv.org/abs/1711.09020
+Relativistic GAN,Arxiv,https://arxiv.org/abs/1807.00734
+StackGAN++,TPAMI 2018,https://arxiv.org/abs/1710.10916
+StarGAN-VC,Arxiv,https://arxiv.org/abs/1806.02169
+SketchyGAN,CVPR 2018,https://arxiv.org/abs/1801.02753
+Switchable Normalization,Arxiv,https://arxiv.org/abs/1806.10779
+Group Normalization,Arxiv,https://arxiv.org/abs/1803.08494
+Glow,Arxiv,https://arxiv.org/abs/1807.03039
+GAnimation,ECCV 2018,https://arxiv.org/abs/1807.09251
+R-CNN,CVPR 2014,https://arxiv.org/abs/1311.2524
+Fast R-CNN,ICCV 2015,https://arxiv.org/abs/1504.08083
+Faster R-CNN,NIPS 2015,https://arxiv.org/abs/1506.01497
+YOLO,CVPR 2016,https://arxiv.org/abs/1506.02640
+YOLO9000,Arxiv,https://arxiv.org/abs/1612.08242
+YOLOv3,Arxiv,https://arxiv.org/abs/1804.02767
+SSD,ECCV 2016,https://arxiv.org/abs/1512.02325
+AlphaGo,Nature 2016,https://www.nature.com/articles/nature16961
+AlphaGo Zero,Nature 2017,https://www.nature.com/articles/nature24270
+d-vectors,ICASSP 2014,https://www.researchgate.net/publication/269295652_Deep_neural_networks_for_small_footprint_text-dependent_speaker_verification
+3DCNN (SV),ICME 2018,https://arxiv.org/abs/1705.09422
+X-vectors,ICASSP 2018,https://www.researchgate.net/publication/327812023_X-Vectors_Robust_DNN_Embeddings_for_Speaker_Recognition
+Matching Networks,NIPS 2016,https://arxiv.org/abs/1606.04080
+Relation Network,CVPR 2018,https://arxiv.org/abs/1711.06025
+Triplet Loss,CVPR 2015,https://arxiv.org/abs/1503.03832
+Multi-Channel CNNs + Improved Triplet Loss,CVPR 2016,https://ieeexplore.ieee.org/document/7780518/
+Capsules,NIPS 2017,https://arxiv.org/abs/1710.09829
