@@ -53,7 +53,8 @@ function fill_conferences(data) {
     let container = $('#timeline-container');
     let period = $('#timeline-period-template');
     let item = $('#timeline-item-template');
-    let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    let date_options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    let deadline_options = { year: 'numeric', month: 'short', day: 'numeric' };
     let prev = -1;
     let elem = undefined;
     data.forEach(function(d) {
@@ -66,9 +67,16 @@ function fill_conferences(data) {
         }
         elem = item.contents().clone();
         elem.find('h3').text(d.short_name);
-        elem.find('span:eq(0)').text(getDate(d.date[0]).toLocaleDateString('en-US', options));
-        elem.find('span:eq(1)').html(d.location);
-        elem.find('p:eq(0)').html(d.name);
+        elem.find('span:eq(0)').text(
+            getDate(d.date[0]).toLocaleDateString(
+                'en-US', date_options
+            ));
+        elem.find('span:eq(1)').text(d.location);
+        elem.find('span:eq(2)').text(
+            'Deadline: ' + getDate(d.submission[0]).toLocaleDateString(
+                'en-US', deadline_options
+            )).attr('class', 'font-weight-normal');
+        elem.find('p:eq(0)').text(d.name);
         elem.find('a').text(d.url)
                       .attr('href', d.url)
                       .attr('target', '_blank')
