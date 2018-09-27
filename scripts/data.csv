@@ -82,3 +82,9 @@ Relation Network,CVPR 2018,https://arxiv.org/abs/1711.06025
 Triplet Loss,CVPR 2015,https://arxiv.org/abs/1503.03832
 Multi-Channel CNNs + Improved Triplet Loss,CVPR 2016,https://ieeexplore.ieee.org/document/7780518/
 Capsules,NIPS 2017,https://arxiv.org/abs/1710.09829
+Adam,ICLR 2015,https://arxiv.org/abs/1412.6980
+ReLU,ICML 2010,https://dl.acm.org/citation.cfm?id=3104425
+PReLU,ICCV 2015,https://arxiv.org/abs/1502.01852
+RReLU,Arxiv,https://arxiv.org/abs/1505.00853
+ELU,ICLR 2016,https://arxiv.org/abs/1511.07289
+SNN,NIPS 2017,https://arxiv.org/abs/1706.02515
