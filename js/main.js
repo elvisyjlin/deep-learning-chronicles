@@ -1,9 +1,6 @@
 let text = "Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum feliseu pede mollis pretium. Pellentesque ut neque. ";
 
-function getDate(date_string) {
-    let d = new Date(date_string);
-    return d
-}
+function getDate(date_string) { return new Date(date_string); }
 
 function preprocess(confs) {
     let data = [];
@@ -77,10 +74,31 @@ function fill_conferences(data) {
                 'en-US', deadline_options
             )).attr('class', 'font-weight-normal');
         elem.find('p:eq(0)').text(d.name);
-        elem.find('a').text(d.url)
+        elem.find('div > a').text(d.url)
                       .attr('href', d.url)
                       .attr('target', '_blank')
                       .attr('class', 'auto-textbox-1');
+        
+        let add_to_calendar_date_url = create_add_to_calendar_link(d.short_name, getDate(d.date[0]), d.url);
+        let add_to_calendar_deadline_url = create_add_to_calendar_link('Call for Paper: ' + d.short_name, getDate(d.submission[0]), d.url);
+        let add_to_calendar_date = '<a target="_blank" href="' + 
+            add_to_calendar_date_url + 
+            '"><i class="far fa-calendar-alt"></i></a>';
+        let add_to_calendar_deadline = '<a target="_blank" href="' + 
+            add_to_calendar_deadline_url + 
+            '"><i class="far fa-calendar-alt"></i></a>';
+        if(add_to_calendar_date_url != null) {
+            elem.find('span:eq(0)').html(
+                elem.find('span:eq(0)').text() + 
+                '&nbsp;&nbsp;' + add_to_calendar_date
+            );
+        }
+        if(add_to_calendar_deadline_url != null) {
+            elem.find('span:eq(2)').html(
+                elem.find('span:eq(2)').text() + 
+                '&nbsp;&nbsp;' + add_to_calendar_deadline);
+        }
+        
         container.append(elem);
     });
     $('.timeline-content p').css('margin-bottom', '0');
@@ -137,6 +155,24 @@ function load_conferences() {
     });
 }
 
+function create_add_to_calendar_link(title, date, url) {
+    if(getDate(date) == 'Invalid Date') {
+        return null;
+    }
+    let base_url = 'http://www.google.com/calendar/event?';
+    let d1 = new Date(date.getTime());
+    let d2 = new Date(date.getTime()); d2.setDate(d2.getDate()+1);
+    d1 = d1.toISOString().slice(0,10).replace(/-/g,'');
+    d2 = d2.toISOString().slice(0,10).replace(/-/g,'');
+    let p = {
+        action: 'TEMPLATE', 
+        text: title, 
+        dates: d1 + '/' + d2, 
+        sprop: url
+    }
+    return base_url + $.param(p)
+}
+
 var $_GET = {};
 
 document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function() {
@@ -152,28 +188,32 @@ $(document).ready(function() {
     let header_description = '';
     
     /* fill page contents */
-    load_contributors();
     if('cate' in $_GET && $_GET['cate'] == 'works') {
         document.title = 'Works - ' + page_title;
         header_title = 'Works';
         description = 'List down the works related to deep learning.';
+        $('#page-content .example-title h2').html(header_title);
+        $('#page-content .example-title p').html(description);
         $('nav li:eq(0)').addClass('active');
         load_works();
     } else if('cate' in $_GET && $_GET['cate'] == 'conferences') {
         document.title = 'Conferences - ' + page_title;
         header_title = 'Conferences';
         description = 'List down the conferences related to deep learning.<br/>Data are mainly retrieved from <a href="http://www.wikicfp.com">WikiCFP</a>.';
+        $('#page-content .example-title h2').html(header_title);
+        $('#page-content .example-title p').html(description);
         $('nav li:eq(2)').addClass('active');
         load_conferences();
     } else {
         document.title = page_title;
         header_title = 'Works';
         description = 'List down the works related to deep learning.';
+        $('#page-content .example-title h2').html(header_title);
+        $('#page-content .example-title p').html(description);
         $('nav li:eq(0)').addClass('active');
         load_works();
     }
-    $('#page-content .example-title h2').html(header_title);
-    $('#page-content .example-title p').html(description);
+    load_contributors();
 
     /* smoothly scroll to the top */
     $(window).scroll(function() { 

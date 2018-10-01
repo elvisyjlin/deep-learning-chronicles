@@ -1,4 +1,4 @@
-# Deep Learning Chronicle
+# Deep Learning Chronicles
 
 The works listed in the page are hand-collected by me, 
 so not all brilliant works related to deep learning are included. 
