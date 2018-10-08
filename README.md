@@ -1,5 +1,9 @@
 # Deep Learning Chronicles
 
+Chronicles of brilliant deep learning ideas
+
+https://elvisyjlin.github.io/deep-learning-chronicles/
+
 The works listed in the page are hand-collected by me, 
 so not all brilliant works related to deep learning are included. 
 I will keep adding significant publications of deep learning in the near future.

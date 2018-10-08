@@ -183,7 +183,7 @@ document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function() {
 });
 
 $(document).ready(function() {
-    let page_title = 'Deep Learning Chronicle';
+    let page_title = 'Deep Learning Chronicles';
     let header_title = '';
     let header_description = '';
     
