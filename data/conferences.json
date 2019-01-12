@@ -1,1292 +1,1502 @@
 {
-  "NAACL 2019": {
-    "url": "http://naacl2019.org/",
-    "submission": [
-      "2018-12-10",
-      "2018-12-03"
-    ],
-    "location": "Hyatt Regency in Minneapolis",
-    "date": [
-      "2019-06-03",
-      "2019-06-05"
-    ],
-    "name": "North American Chapter of the Association for Computational Linguistics"
-  },
-  "ICASSP 2008": {
-    "url": "http://www.icassp2008.org/CallForPapers.asp",
-    "submission": [
-      "2007-10-05"
-    ],
-    "location": "Las Vegas",
-    "date": [
-      "2008-03-30",
-      "2008-04-04"
-    ],
-    "name": "The 33rd International Conference on Acoustics, Speech, and Signal Processing"
-  },
-  "ACL 2010": {
-    "url": "http://acl2010.org/",
-    "submission": [
-      "2010-02-15"
-    ],
-    "location": "Uppsala, Sweden",
-    "date": [
-      "2010-07-11",
-      "2010-07-16"
-    ],
-    "name": "The 48th Annual Meeting of the Association for Computational Linguistics"
-  },
-  "ICML 2009": {
-    "url": "http://www.cs.mcgill.ca/~icml2009/",
-    "submission": [
-      "2009-01-26"
-    ],
-    "location": "Montreal, Canada",
-    "date": [
-      "2009-06-14",
-      "2009-06-18"
-    ],
-    "name": " The 26th International Conference On Machine Learning"
-  },
-  "ICIP 2019": {
-    "url": "http://2019.ieeeicip.org/",
-    "submission": [
-      "2019-01-31"
-    ],
-    "location": "Taipei, Taiwan",
-    "date": [
-      "2019-09-22",
-      "2019-09-25"
-    ],
-    "name": "International Conference on Image Processing"
-  },
-  "NIPS 2014": {
-    "url": "http://nips.cc/Conferences/2014/",
-    "submission": [
-      "2014-06-06"
-    ],
-    "location": "Montreal, Quebec, Canada",
-    "date": [
-      "2014-12-08",
-      "2014-12-13"
-    ],
-    "name": "Neural Information Processing Systems Conference"
-  },
-  "NIPS 2017": {
-    "url": "https://nips.cc/Conferences/2017",
-    "submission": [
-      "2017-05-19"
-    ],
-    "location": "Long Beach, CA, USA",
-    "date": [
-      "2017-12-04",
-      "2017-12-09"
-    ],
-    "name": "The Thirty-first Annual Conference on Neural Information Processing Systems"
-  },
-  "NIPS 2008": {
-    "url": "http://nips.cc/Conferences/2008/",
-    "submission": [
-      "2008-06-06"
-    ],
-    "location": "Vancouver, Canada",
-    "date": [
-      "2008-12-12",
-      "2008-12-13"
-    ],
-    "name": "Twenty-Second Annual Conference on Neural Information Processing Systems"
-  },
-  "ECCV 2018": {
-    "url": "https://eccv2018.org",
-    "submission": [
-      "2018-03-14"
-    ],
-    "location": "Munich, Germany",
-    "date": [
-      "2018-09-08",
-      "2018-09-14"
-    ],
-    "name": "European Conference on Computer Vision"
-  },
-  "EMNLP 2018": {
-    "url": "http://emnlp2018.org/",
-    "submission": [
-      "2018-05-22"
-    ],
-    "location": "Brussels, Belgium",
-    "date": [
-      "2018-10-31",
-      "2018-11-04"
-    ],
-    "name": "2018 Conference on Empirical Methods in Natural Language Processing "
-  },
-  "AAAI 2013": {
-    "url": "http://www.aaai.org/Conferences/AAAI/aaai13.php",
-    "submission": [
-      "2013-01-22",
-      "2013-01-19"
-    ],
-    "location": "Washington, USA",
-    "date": [
-      "2013-07-14",
-      "2013-07-18"
-    ],
-    "name": "Association of the Advancement of Artificial Intelligence"
-  },
-  "NAACL-HLT 2009": {
-    "url": "/cfp/allcat",
-    "submission": [
-      "2008-12-01"
-    ],
-    "location": "Boulder, Colorado, USA",
-    "date": [
-      "2009-05-31",
-      "2009-06-05"
-    ],
-    "name": "North American Chapter of the Association for Computational Linguistics - Human Language Technologies 2009"
-  },
-  "NIPS 2012": {
-    "url": "http://nips.cc/Conferences/2012/",
-    "submission": [
-      "2012-06-01"
-    ],
-    "location": "Lake Tahoe, Nevada, USA",
-    "date": [
-      "2012-12-03",
-      "2012-12-06"
-    ],
-    "name": "Neural Information Processing Systems Conference"
-  },
-  "ECCV 2010": {
-    "url": "http://www.ics.forth.gr/eccv2010",
-    "submission": [
-      "2010-03-17"
-    ],
-    "location": "Hersonissos, Crete, Greece",
-    "date": [
-      "2010-09-05",
-      "2010-09-11"
-    ],
-    "name": "11th European Conference on Computer Vision "
-  },
-  "ICIP 2011": {
-    "url": "http://www.icip2011.com/",
-    "submission": [
-      "2011-01-21"
-    ],
-    "location": "Brussels, Belguim",
-    "date": [
-      "2011-09-11",
-      "2011-09-14"
-    ],
-    "name": "2011 IEEE International Conference on Image Processing "
-  },
-  "ICASSP 2017": {
-    "url": "http://www.ieee.org/conferences_events/conferences/conferencedetails/index.html?Conf_ID=31846",
-    "submission": [
-      "2016-09-12"
-    ],
-    "location": "New Orleans, LA, USA",
-    "date": [
-      "2017-03-05",
-      "2017-03-09"
-    ],
-    "name": "ICASSP 2017 - 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
-  },
-  "NAACL 2013": {
-    "url": "http://naacl2013.naacl.org/",
-    "submission": [
-      "2012-12-10"
-    ],
-    "location": "Atlanta",
-    "date": [
-      "2013-06-09",
-      "2013-06-14"
-    ],
-    "name": "The 2013 Conference of the North American Chapter of the Association for Computational Linguistics"
-  },
-  "ACL 2016": {
-    "url": "http://acl2016.org/",
-    "submission": [
-      "2016-03-18"
-    ],
-    "location": "Berlin, Germany",
-    "date": [
-      "2016-08-07",
-      "2016-08-12"
-    ],
-    "name": "The 54th Annual Meeting of the Association for Computational Linguistics"
-  },
-  "ICCV 2013": {
-    "url": "http://www.iccv2013.org/",
-    "submission": [
-      "2013-04-12",
-      "2013-04-08"
-    ],
-    "location": "Sydney, Australia",
-    "date": [
-      "2013-12-01",
-      "2013-12-08"
-    ],
-    "name": "IEEE International Conference on Computer Vision"
-  },
-  "AAAI 2014": {
-    "url": "http://www.aaai.org/Conferences/AAAI/aaai14.php",
-    "submission": [
-      "2014-02-04",
-      "2014-01-31"
-    ],
-    "location": "Qu\u00e9bec City, Canada",
-    "date": [
-      "2014-07-27",
-      "2014-07-31"
-    ],
-    "name": "28th AAAI Conference on Artificial Intelligence"
-  },
-  "IJCAI 2016": {
-    "url": "http://ijcai-16.org/",
-    "submission": [
-      "2016-02-02",
-      "2016-01-27"
-    ],
-    "location": "New York City, US",
-    "date": [
-      "2016-07-09",
-      "2016-07-15"
-    ],
-    "name": "Twenty-Fifth International Joint Conference on Artificial Intelligence"
-  },
-  "NAACL HLT 2012": {
-    "url": "http://www.naaclhlt2012.org/",
-    "submission": [
-      "2012-01-06"
-    ],
-    "location": "Montreal, Canada",
-    "date": [
-      "2012-06-03",
-      "2012-06-08"
-    ],
-    "name": "Human Language Technologies: The 12th Annual Conference of the North American Chapter of the Association for Computational Linguistics"
-  },
-  "ICIP 2015": {
-    "url": "http://www.icip2015.org/",
-    "submission": [
-      "2015-01-15"
-    ],
-    "location": "Quebec City, Canada",
-    "date": [
-      "2015-09-27",
-      "2015-09-30"
-    ],
-    "name": "International Conference on Image Processing"
-  },
-  "TACL 2017": {
-    "submission": [
-      "2017-05-20",
-      "2017-03-10"
-    ],
-    "location": "Prague",
-    "date": [
-      "2017-06-26",
-      "2017-06-30"
-    ],
-    "name": "TACL 2017 : TOPOLOGY, ALGEBRA AND CATEGORIES IN LOGIC"
-  },
-  "ICIP 2018": {
-    "url": "https://2018.ieeeicip.org/",
-    "submission": [
-      "2018-02-07"
-    ],
-    "location": "Athens, Greece",
-    "date": [
-      "2018-10-07",
-      "2018-10-10"
-    ],
-    "name": "International Conference on Image Processing"
-  },
-  "EMNLP 2014": {
-    "url": "http://emnlp2014.org/",
-    "submission": [
-      "2014-06-02"
-    ],
-    "location": "Doha, Qatar",
-    "date": [
-      "2014-10-25",
-      "2014-10-29"
-    ],
-    "name": "Conference on Empirical Methods in Natural Language Processing"
-  },
-  "AAAI 2012": {
-    "url": "http://www.aaai.org/Conferences/AAAI/aaai12.php",
-    "submission": [
-      "2012-01-24"
-    ],
-    "location": "Toronto, Ontario, Canada",
-    "date": [
-      "2012-07-22",
-      "2012-07-26"
-    ],
-    "name": "AAAI - Association of the Advancement of Artificial Intelligence"
-  },
-  "ACL HLT 2011": {
-    "url": "http://www.acl2011.org/",
-    "submission": [
-      "2010-12-17"
-    ],
-    "location": "Portland, Oregon, USA",
-    "date": [
-      "2011-06-19",
-      "2011-06-24"
-    ],
-    "name": "The 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies"
-  },
-  "CVPR 2009": {
-    "url": "http://www.cvpr2009.org/",
-    "submission": [
-      "2008-11-20",
-      "2008-11-13"
-    ],
-    "location": "Miami Beach, Florida",
-    "date": [
-      "2009-06-20",
-      "2009-06-26"
-    ],
-    "name": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition"
-  },
-  "ICML 2016": {
-    "url": "http://icml.cc/2016/",
-    "submission": [
-      "2016-02-05"
-    ],
-    "location": "New York",
-    "date": [
-      "2016-06-19",
-      "2016-06-24"
-    ],
-    "name": "33rd International Conference on Machine Learning (ICML-2016)"
-  },
-  "CVPR 2018": {
-    "url": "http://cvpr2018.thecvf.com/",
-    "submission": [
-      "2017-11-15",
-      "2017-11-08"
-    ],
-    "location": "SALT LAKE CITY, UTAH",
-    "date": [
-      "2018-06-18",
-      "2018-06-22"
-    ],
-    "name": "Computer Vision and Pattern Recognition"
-  },
-  "EMNLP 2010": {
-    "url": "http://www.lsi.upc.edu/events/emnlp2010/",
-    "submission": [
-      "2010-06-25",
-      "2010-06-18"
-    ],
-    "location": "MIT, Cambridge, MA, USA",
-    "date": [
-      "2010-10-09",
-      "2010-10-11"
-    ],
-    "name": "2010 Conference on Empirical Methods in Natural Language Processing"
-  },
-  "ICCV 2011": {
-    "url": "http://www.iccv2011.org/",
-    "submission": [
-      "2011-03-01"
-    ],
-    "location": "Barcelona, Spain",
-    "date": [
-      "2011-11-06",
-      "2011-11-13"
-    ],
-    "name": "The 13th International Conference on Computer Vision"
-  },
-  "AAAI 2019": {
-    "url": "https://aaai.org/Conferences/AAAI-19",
-    "submission": [
-      "2018-09-05",
-      "2018-09-01"
-    ],
-    "location": "Honolulu, Hawaii",
-    "date": [
-      "2019-01-27",
-      "2019-02-01"
-    ],
-    "name": "National Conference on Artificial Intelligence"
-  },
-  "EMNLP 2013": {
-    "url": "http://hum.csse.unimelb.edu.au/emnlp2013/",
-    "submission": [
-      "2013-07-05"
-    ],
-    "location": "Seattle, Washington",
-    "date": [
-      "2013-10-18",
-      "2013-10-21"
-    ],
-    "name": "Conference on Empirical Methods in Natural Language Processing"
-  },
-  "IJCAI 2009": {
-    "url": "http://ijcai-09.org/index.html",
-    "submission": [
-      "2009-01-12",
-      "2009-01-07"
-    ],
-    "location": "Pasadena, California, USA",
-    "date": [
-      "2009-07-11",
-      "2009-07-17"
-    ],
-    "name": "TWENTY FIRST INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE"
-  },
-  "ICASSP 2011": {
-    "url": "http://www.icassp2011.com/",
-    "submission": [
-      "2010-10-20"
-    ],
-    "location": "Prague, Czech Republic",
-    "date": [
-      "2011-05-22",
-      "2011-05-27"
-    ],
-    "name": "IEEE International Conference on Acoustics, Speech and Signal Processing"
-  },
-  "ICASSP 2012": {
-    "url": "http://www.icassp2012.org/",
-    "submission": [
-      "2011-09-27"
-    ],
-    "location": "Kyoto, Japan ",
-    "date": [
-      "2012-03-25",
-      "2012-03-30"
-    ],
-    "name": "International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2012"
-  },
-  "AAAI 2015": {
-    "url": "http://www.aaai.org/Conferences/AAAI/aaai15.php",
-    "submission": [
-      "2014-09-15",
-      "2014-09-10"
-    ],
-    "location": "Austin, Texas, USA",
-    "date": [
-      "2015-01-25",
-      "2015-01-29"
-    ],
-    "name": "29th AAAI Conference on Artificial Intelligence"
-  },
-  "EMNLP 2011": {
-    "url": "http://conferences.inf.ed.ac.uk/emnlp2011/",
-    "submission": [
-      "2011-03-30"
-    ],
-    "location": "Edinburgh, Scotland, UK",
-    "date": [
-      "2011-07-27",
-      "2011-07-31"
-    ],
-    "name": "Conference on Empirical Methods in Natural Language Processing"
-  },
-  "ACL 2014": {
-    "url": "http://www.cs.jhu.edu/ACL2014/",
-    "submission": [
-      "2014-01-10"
-    ],
-    "location": "Baltimore, Maryland",
-    "date": [
-      "2014-06-22",
-      "2014-06-27"
-    ],
-    "name": "The 52nd Annual Meeting of the Association for Computational Linguistics"
-  },
-  "ACL 2008": {
-    "url": "http://www.acl2008.org",
-    "submission": [
-      "2008-01-10"
-    ],
-    "location": "Columbus, Ohio",
-    "date": [
-      "2008-06-15",
-      "2008-06-20"
-    ],
-    "name": "The 46th Annual Meeting of the Association for Computational Linguistics"
-  },
-  "CVPR 2014": {
-    "url": "http://www.pamitc.org/cvpr14/",
-    "submission": [
-      "2013-11-01"
-    ],
-    "location": "Columbus, Ohio",
-    "date": [
-      "2014-06-24",
-      "2014-06-27"
-    ],
-    "name": "27th IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
-  },
-  "NIPS 2010": {
-    "url": "http://nips.cc/Conferences/2010/",
-    "submission": [
-      "2010-06-03"
-    ],
-    "location": "Vancouver, B.C., Canada",
-    "date": [
-      "2010-12-06",
-      "2010-12-09"
-    ],
-    "name": "Neural Information Processing Systems Conference"
-  },
-  "NAACL 2015": {
-    "url": "http://nlp.eecs.umich.edu/~naacl15/",
-    "submission": [
-      "2014-12-04"
-    ],
-    "location": "Denver, Colorado",
-    "date": [
-      "2015-05-31",
-      "2015-06-05"
-    ],
-    "name": "North American Chapter of the Association for Computational Linguistics (NAACL) 2015"
-  },
-  "ICML 2012": {
-    "url": "http://icml.cc/2012/call-for-papers/",
-    "submission": [
-      "2012-02-24"
-    ],
-    "location": "Edinburgh, Scotland, United Kingdom",
-    "date": [
-      "2012-06-27",
-      "2012-06-29"
-    ],
-    "name": "29th International Conference on Machine Learning"
-  },
-  "ICML 2015": {
-    "url": "http://icml.cc/2015/",
-    "submission": [
-      "2015-02-06"
-    ],
-    "location": "Lille, France",
-    "date": [
-      "2015-07-06",
-      "2015-07-11"
-    ],
-    "name": "International Conference on Machine Learning 2015"
-  },
-  "NAACL HLT 2010": {
-    "url": "http://naaclhlt2010.isi.edu",
-    "submission": [
-      "2009-12-01"
-    ],
-    "location": "Los Angeles, CA, USA",
-    "date": [
-      "2010-06-01",
-      "2010-06-06"
-    ],
-    "name": "Human Language Technologies: The 11th Annual Conference of the North American Chapter of the Association for Computational Linguistics"
-  },
-  "IJCAI 2015": {
-    "url": "http://ijcai-15.org/",
-    "submission": [
-      "2015-02-12",
-      "2015-02-08"
-    ],
-    "location": "Buenos Aires, Argentina",
-    "date": [
-      "2015-07-28",
-      "2015-08-01"
-    ],
-    "name": "International Joint Conference on Artificial Intelligence"
-  },
-  "EMNLP 2015": {
-    "url": "http://www.emnlp2015.org",
-    "submission": [
-      "2015-05-31"
-    ],
-    "location": "Lisbon, Portugal",
-    "date": [
-      "2015-09-17",
-      "2015-09-21"
-    ],
-    "name": "Empirical Methods in Natural Language Processing"
-  },
-  "ACL 2017": {
-    "url": "http://acl2017.org/",
-    "submission": [
-      "2017-02-06"
-    ],
-    "location": "Vancouver, Canada",
-    "date": [
-      "2017-07-30",
-      "2017-08-04"
-    ],
-    "name": "The 55th annual meeting of the Association for Computational Linguistics"
-  },
-  "ICCV 2017": {
-    "url": "http://iccv2017.thecvf.com/",
-    "submission": [
-      "2017-03-17"
-    ],
-    "location": "Venice, Italy",
-    "date": [
-      "2017-10-22",
-      "2017-10-29"
-    ],
-    "name": "International Conference on Computer Vision"
-  },
-  "ICIP 2008": {
-    "url": "http://www.icip08.org/",
-    "submission": [
-      "2008-01-18"
-    ],
-    "location": "San Diego, California",
-    "date": [
-      "2008-10-12",
-      "2008-10-15"
-    ],
-    "name": "IEEE International Conference on Image Processing"
-  },
-  "AAAI 2018": {
-    "url": "http://www.aaai.org/Conferences/AAAI/aaai18.php",
-    "submission": [
-      "2017-09-11",
-      "2017-09-08"
-    ],
-    "location": "New Orleans, Lousiana, USA",
-    "date": [
-      "2018-02-02",
-      "2018-02-07"
-    ],
-    "name": "The Thirty-Second AAAI Conference on Artificial Intelligence"
-  },
-  "NIPS 2011": {
-    "url": "http://nips.cc/Conferences/2011/",
-    "submission": [
-      "2011-06-02"
-    ],
-    "location": "Granada, Spain",
-    "date": [
-      "2011-12-12",
-      "2011-12-15"
-    ],
-    "name": "Neural Information Processing Systems Conference"
-  },
-  "ACL 2013": {
-    "url": "http://acl2013.org",
-    "submission": [
-      "2013-02-20"
-    ],
-    "location": "Sofia, Bulgaria",
-    "date": [
-      "2013-08-04",
-      "2013-08-09"
-    ],
-    "name": "The 51st Annual Meeting of the Association for Computational Linguistics"
-  },
-  "EMNLP 2008": {
-    "url": "http://conferences.inf.ed.ac.uk/emnlp08/ ",
-    "submission": [
-      "2008-07-03"
-    ],
-    "location": "Waikiki, Honolulu, Hawaii",
-    "date": [
-      "2008-10-25",
-      "2008-10-27"
-    ],
-    "name": "Conference on Empirical Methods in Natural Language Processing"
-  },
   "AAAI 2008": {
-    "url": "http://www.aaai.org/Conferences/AAAI/aaai08.php",
-    "submission": [
-      "2008-01-30",
-      "2008-01-25"
-    ],
-    "location": "Chicago, Illinois",
     "date": [
       "2008-07-13",
       "2008-07-17"
     ],
-    "name": "Twenty-Third AAAI Conference on Artificial Intelligence"
-  },
-  "ICML 2017": {
-    "url": "http://icml.cc/2017",
+    "location": "Chicago, Illinois",
+    "name": "Twenty-Third AAAI Conference on Artificial Intelligence",
     "submission": [
-      "2017-02-24"
+      "2008-01-30",
+      "2008-01-25"
     ],
-    "location": "Sydney, Australia",
-    "date": [
-      "2017-08-06",
-      "2017-08-11"
-    ],
-    "name": " 34th International Conference on Machine Learning"
+    "url": "http://www.aaai.org/Conferences/AAAI/aaai08.php"
   },
-  "ECCV 2008": {
-    "url": "http://eccv2008.inrialpes.fr/",
-    "submission": [
-      "2008-03-17"
-    ],
-    "location": "Marseille, France",
+  "AAAI 2012": {
     "date": [
-      "2008-10-12",
-      "2008-10-18"
+      "2012-07-22",
+      "2012-07-26"
     ],
-    "name": "10th European Conference on Computer Vision"
+    "location": "Toronto, Ontario, Canada",
+    "name": "AAAI - Association of the Advancement of Artificial Intelligence",
+    "submission": [
+      "2012-01-24"
+    ],
+    "url": "http://www.aaai.org/Conferences/AAAI/aaai12.php"
+  },
+  "AAAI 2013": {
+    "date": [
+      "2013-07-14",
+      "2013-07-18"
+    ],
+    "location": "Washington, USA",
+    "name": "Association of the Advancement of Artificial Intelligence",
+    "submission": [
+      "2013-01-22",
+      "2013-01-19"
+    ],
+    "url": "http://www.aaai.org/Conferences/AAAI/aaai13.php"
+  },
+  "AAAI 2014": {
+    "date": [
+      "2014-07-27",
+      "2014-07-31"
+    ],
+    "location": "Qu\u00e9bec City, Canada",
+    "name": "28th AAAI Conference on Artificial Intelligence",
+    "submission": [
+      "2014-02-04",
+      "2014-01-31"
+    ],
+    "url": "http://www.aaai.org/Conferences/AAAI/aaai14.php"
+  },
+  "AAAI 2015": {
+    "date": [
+      "2015-01-25",
+      "2015-01-29"
+    ],
+    "location": "Austin, Texas, USA",
+    "name": "29th AAAI Conference on Artificial Intelligence",
+    "submission": [
+      "2014-09-15",
+      "2014-09-10"
+    ],
+    "url": "http://www.aaai.org/Conferences/AAAI/aaai15.php"
   },
   "AAAI 2016": {
-    "url": "http://www.aaai.org/Conferences/AAAI/aaai16.php",
-    "submission": [
-      "2015-09-15",
-      "2015-09-10"
-    ],
-    "location": "Phoenix, Arizona, USA",
     "date": [
       "2016-02-12",
       "2016-02-17"
     ],
-    "name": "Thirtieth AAAI Conference on Artificial Intelligence"
-  },
-  "IJCAI 2019": {
-    "url": "http://www.ijcai19.org/",
+    "location": "Phoenix, Arizona, USA",
+    "name": "Thirtieth AAAI Conference on Artificial Intelligence",
     "submission": [
-      "2019-02-25"
+      "2015-09-15",
+      "2015-09-10"
     ],
-    "location": "Macau, China",
-    "date": [
-      "2019-08-10",
-      "2019-08-16"
-    ],
-    "name": "International Joint Conference on Artificial Intelligence"
+    "url": "http://www.aaai.org/Conferences/AAAI/aaai16.php"
   },
-  "ICASSP 2019": {
-    "url": "http://icassp2019.com/",
-    "submission": [
-      "2018-10-29"
-    ],
-    "location": "Brighton,UK",
+  "AAAI 2018": {
     "date": [
-      "2019-05-12",
-      "2019-05-17"
+      "2018-02-02",
+      "2018-02-07"
     ],
-    "name": "International Conference on Acoustics, Speech, and Signal Processing"
+    "location": "New Orleans, Lousiana, USA",
+    "name": "The Thirty-Second AAAI Conference on Artificial Intelligence",
+    "submission": [
+      "2017-09-11",
+      "2017-09-08"
+    ],
+    "url": "http://www.aaai.org/Conferences/AAAI/aaai18.php"
   },
-  "NAACL-HLT 2016": {
-    "url": "http://naacl.org/naacl-hlt-2016/",
-    "submission": [
-      "2016-01-06"
-    ],
-    "location": "San Diego",
+  "AAAI 2019": {
     "date": [
-      "2016-06-12",
-      "2016-06-17"
+      "2019-01-27",
+      "2019-02-01"
     ],
-    "name": "The 15th Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+    "location": "Honolulu, Hawaii",
+    "name": "National Conference on Artificial Intelligence",
+    "submission": [
+      "2018-09-05",
+      "2018-09-01"
+    ],
+    "url": "https://aaai.org/Conferences/AAAI-19"
   },
-  "ICIP 2017": {
-    "url": "http://2017.ieeeicip.org/",
-    "submission": [
-      "TBD"
-    ],
-    "location": "Beijing, China",
+  "ACL 2008": {
     "date": [
-      "2017-09-18",
-      "2017-09-20"
+      "2008-06-15",
+      "2008-06-20"
     ],
-    "name": "International Conference on Image Processing"
+    "location": "Columbus, Ohio",
+    "name": "The 46th Annual Meeting of the Association for Computational Linguistics",
+    "submission": [
+      "2008-01-10"
+    ],
+    "url": "http://www.acl2008.org"
   },
-  "ICIP 2012": {
-    "url": "http://www.icip2012.com/",
-    "submission": [
-      "2012-01-12"
-    ],
-    "location": "Orland, Florida, U.S.A.",
+  "ACL 2010": {
     "date": [
-      "2012-09-30",
-      "2012-10-03"
+      "2010-07-11",
+      "2010-07-16"
     ],
-    "name": "2012 IEEE International Conference on Image Processing"
-  },
-  "NIPS 2018": {
-    "url": "https://nips.cc/Conferences/2018",
+    "location": "Uppsala, Sweden",
+    "name": "The 48th Annual Meeting of the Association for Computational Linguistics",
     "submission": [
-      "TBD"
+      "2010-02-15"
     ],
-    "location": "Montr\u00e9al, CANADA",
-    "date": [
-      "2018-12-03",
-      "2018-12-08"
-    ],
-    "name": "The Thirty-second Annual Conference on Neural Information Processing Systems"
-  },
-  "ECCV 2012": {
-    "url": "http://eccv2012.unifi.it/",
-    "submission": [
-      "2012-03-05"
-    ],
-    "location": "Florence, Italy    ",
-    "date": [
-      "2012-10-07",
-      "2012-10-13"
-    ],
-    "name": "European Conference on Computer Vision    "
-  },
-  "ICASSP 2014": {
-    "url": "http://www.icassp2014.org",
-    "submission": [
-      "2013-11-04"
-    ],
-    "location": "Florence, Italy",
-    "date": [
-      "2014-05-04",
-      "2014-05-09"
-    ],
-    "name": "IEEE International Conference on Acoustics, Speech and Signal Processing"
-  },
-  "ICIP 2016": {
-    "url": "http://www.ieeeicip2016.org/CallForPapers.asp",
-    "submission": [
-      "2016-01-25"
-    ],
-    "location": "Phoenix Convention Centre, Phoenix, Ariz",
-    "date": [
-      "2016-09-25",
-      "2016-09-28"
-    ],
-    "name": "International Conference on Image Processing"
-  },
-  "CVPR 2013": {
-    "url": "http://www.pamitc.org/cvpr13/",
-    "submission": [
-      "2012-11-15"
-    ],
-    "location": "Portland, Oregon, USA",
-    "date": [
-      "2013-06-23",
-      "2013-06-28"
-    ],
-    "name": "26th IEEE Conference on Computer Vision and Pattern Recognition"
-  },
-  "NIPS 2015": {
-    "url": "https://nips.cc/Conferences/2015/",
-    "submission": [
-      "2015-06-05"
-    ],
-    "location": "Montreal, Canada",
-    "date": [
-      "2015-12-07",
-      "2015-12-12"
-    ],
-    "name": "Neural Information Processing Systems Conference"
-  },
-  "CVPR 2017": {
-    "submission": [
-      "2017-04-10",
-      "2016-11-11"
-    ],
-    "location": "Puerto Rico",
-    "date": [
-      "2017-06-24",
-      "2017-06-30"
-    ],
-    "name": "CVPR 2017 : Computer Vision and Pattern Recognition"
-  },
-  "CVPR 2015": {
-    "url": "http://www.pamitc.org/cvpr15/",
-    "submission": [
-      "2014-11-14"
-    ],
-    "location": "Boston, MA",
-    "date": [
-      "2015-06-07",
-      "2015-06-12"
-    ],
-    "name": "28th IEEE Conference on Computer Vision and Pattern Recognition"
-  },
-  "ICASSP 2009": {
-    "url": "http://icassp09.com/",
-    "submission": [
-      "2008-09-29"
-    ],
-    "location": "Taipei, Taiwan",
-    "date": [
-      "2009-04-19",
-      "2009-04-24"
-    ],
-    "name": "IEEE International Conference on Acoustics, Speech and Signal Processing"
-  },
-  "CVPR 2010": {
-    "url": "http://cvl.umiacs.umd.edu/conferences/cvpr2010/ ",
-    "submission": [
-      "2009-11-19"
-    ],
-    "location": "San Francisco, California",
-    "date": [
-      "2010-06-13",
-      "2010-06-18"
-    ],
-    "name": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition "
-  },
-  "CVPR 2012": {
-    "url": "http://www.cvpr2012.org/",
-    "submission": [
-      "2011-11-21"
-    ],
-    "location": "Rhode Island",
-    "date": [
-      "2012-06-18",
-      "2012-06-20"
-    ],
-    "name": "25th IEEE Conference on Computer Vision and Pattern Recognition"
-  },
-  "IJCAI 2017": {
-    "url": "http://ijcai-17.org/MainTrackCFP.html",
-    "submission": [
-      "2017-02-19"
-    ],
-    "location": "Melbourne, Australia",
-    "date": [
-      "2017-08-19",
-      "2017-08-25"
-    ],
-    "name": "International Joint Conference on Artificial Intelligence"
-  },
-  "ICML 2019": {
-    "url": "https://icml.cc/Conferences/2019",
-    "submission": [
-      "2019-01-23",
-      "2019-01-18"
-    ],
-    "location": "Long Beach, CA, USA",
-    "date": [
-      "2019-06-10",
-      "2019-06-15"
-    ],
-    "name": "36th International Conference on Machine Learning"
-  },
-  "ICIP 2013": {
-    "url": "http://www.ieeeicip.org/",
-    "submission": [
-      "2013-02-05"
-    ],
-    "location": "Melbourne, Australia",
-    "date": [
-      "2013-09-15",
-      "2013-09-18"
-    ],
-    "name": "IEEE International Conference on Image Processing"
-  },
-  "ICASSP 2013": {
-    "url": "http://www.icassp2013.com/",
-    "submission": [
-      "2012-11-30"
-    ],
-    "location": "Vancouver, Canada",
-    "date": [
-      "2013-05-26",
-      "2013-05-30"
-    ],
-    "name": "The 38th IEEE International Conference on Acoustics, Speech, and Signal Processing"
-  },
-  "EMNLP 2017": {
-    "url": "http://emnlp2017.net/",
-    "submission": [
-      "2017-04-14"
-    ],
-    "location": "Copenhagen",
-    "date": [
-      "2017-09-07",
-      "2017-09-11"
-    ],
-    "name": "Conference on Empirical Methods in Natural Language Processing"
-  },
-  "ACL 2019": {
-    "url": "http://www.acl2019.org",
-    "submission": [
-      "2019-03-04"
-    ],
-    "location": "Florence, Italy",
-    "date": [
-      "2019-07-28",
-      "2019-08-02"
-    ],
-    "name": "57th Annual Meeting of the Association for Computational Linguistics"
-  },
-  "EMNLP  2012": {
-    "url": "http://emnlp-conll2012.unige.ch/",
-    "submission": [
-      "2012-03-28"
-    ],
-    "location": "Jeju, South Korea",
-    "date": [
-      "2012-07-12",
-      "2012-07-14"
-    ],
-    "name": "Conference on Empirical Methods in Natural Language Processing"
-  },
-  "ICML 2008": {
-    "url": "http://icml2008.cs.helsinki.fi",
-    "submission": [
-      "2008-02-08"
-    ],
-    "location": "Helsinki, Finland",
-    "date": [
-      "2008-07-06",
-      "2008-07-09"
-    ],
-    "name": "International Conference on Machine Learning"
-  },
-  "IJCAI 2011": {
-    "url": "http://ijcai-11.iiia.csic.es",
-    "submission": [
-      "2011-01-24",
-      "2011-01-19"
-    ],
-    "location": "Barcelona, Spain",
-    "date": [
-      "2011-07-16",
-      "2011-07-22"
-    ],
-    "name": "Twenty-second International Joint Conference on Artificial Intelligence"
-  },
-  "CVPR 2019": {
-    "url": "http://cvpr2019.thecvf.com/files/CFP_CVPR2019.pdf",
-    "submission": [
-      "2018-11-16"
-    ],
-    "location": "Long Beach, CA",
-    "date": [
-      "2019-06-15",
-      "2019-06-21"
-    ],
-    "name": "Computer Vision and Pattern Recognition"
-  },
-  "ICML 2014": {
-    "url": "http://icml.cc/2014",
-    "submission": [
-      "2014-01-31"
-    ],
-    "location": "Beijing, China",
-    "date": [
-      "2014-06-21",
-      "2014-06-26"
-    ],
-    "name": "31st International Conference on Machine Learning "
-  },
-  "ICCV 2009": {
-    "url": "http://www.iccv2009.org/",
-    "submission": [
-      "2009-03-10"
-    ],
-    "location": "Kyoto, Japan",
-    "date": [
-      "2009-09-29",
-      "2009-10-02"
-    ],
-    "name": "International Conference on Computer Vision"
-  },
-  "ACL 2018": {
-    "url": "http://acl2018.org/",
-    "submission": [
-      "2018-02-22"
-    ],
-    "location": "Melbourne, Australia",
-    "date": [
-      "2018-07-15",
-      "2018-07-20"
-    ],
-    "name": "56th Annual Meeting of the Association for Computational Linguistics"
-  },
-  "ICASSP 2010": {
-    "url": "http://www.icassp2010.com",
-    "submission": [
-      "2009-09-14"
-    ],
-    "location": "Dallas, Texas, USA",
-    "date": [
-      "2010-03-15",
-      "2010-03-19"
-    ],
-    "name": "IEEE International Conference on Acoustics, Speech and Signal Processing"
-  },
-  "ICIP 2010": {
-    "url": "http://www.icip2010.org/",
-    "submission": [
-      "2010-01-25"
-    ],
-    "location": "Hong Kong,  China",
-    "date": [
-      "2010-09-12",
-      "2010-09-15"
-    ],
-    "name": "IEEE International Conference on Image Processing"
-  },
-  "ICCV 2019": {
-    "url": "http://iccv2019.thecvf.com/submission/timeline",
-    "submission": [
-      "2019-03-01"
-    ],
-    "location": "Seoul, Korea",
-    "date": [
-      "2019-10-27",
-      "2019-11-03"
-    ],
-    "name": "International Conference on Computer Vision"
-  },
-  "ICML 2013": {
-    "url": "http://icml.cc/2013/",
-    "submission": [
-      "2013-02-15"
-    ],
-    "location": "Atlanta, GA, USA",
-    "date": [
-      "2013-06-16",
-      "2013-06-21"
-    ],
-    "name": "The 30th International Conference on Machine Learning"
-  },
-  "EMNLP 2016": {
-    "url": "http://www.emnlp2016.net/",
-    "submission": [
-      "2016-06-03"
-    ],
-    "location": "Austin, TX, USA",
-    "date": [
-      "2016-11-02",
-      "2016-11-06"
-    ],
-    "name": "SIGDAT conference on Empirical Methods for Natural Language Processing"
+    "url": "http://acl2010.org/"
   },
   "ACL 2012": {
-    "url": "http://www.acl2012.org/",
-    "submission": [
-      "2012-01-15"
-    ],
-    "location": "Jeju, Korea",
     "date": [
       "2012-07-08",
       "2012-07-14"
     ],
-    "name": "The 50th Annual Meeting of the Association for Computational Linguistics"
-  },
-  "ICML 2010": {
-    "url": "http://www.icml2010.org/",
+    "location": "Jeju, Korea",
+    "name": "The 50th Annual Meeting of the Association for Computational Linguistics",
     "submission": [
-      "2010-02-01"
+      "2012-01-15"
     ],
-    "location": "Haifa, Israel",
-    "date": [
-      "2010-06-21",
-      "2010-06-24"
-    ],
-    "name": "The 27th International Conference on Machine Learning"
+    "url": "http://www.acl2012.org/"
   },
-  "NIPS 2016": {
-    "url": "https://nips.cc/Conferences/2016",
-    "submission": [
-      "2016-05-20"
-    ],
-    "location": "Barcelona, SPAIN ",
+  "ACL 2013": {
     "date": [
-      "2016-12-04",
-      "2016-12-09"
-    ],
-    "name": "The Thirtieth Annual Conference on Neural Information Processing Systems"
-  },
-  "NIPS 2013": {
-    "url": "http://nips.cc/",
-    "submission": [
-      "2013-05-31"
-    ],
-    "location": "Lake Tahoe, Nevada, USA",
-    "date": [
-      "2013-12-05",
-      "2013-12-10"
-    ],
-    "name": "Neural Information Processing Systems Conference"
-  },
-  "ICML 2018": {
-    "url": "https://icml.cc/Conferences/2018/",
-    "submission": [
-      "2018-02-09"
-    ],
-    "location": "Stockholmsm\u00e4ssan, Stockholm SWEDEN",
-    "date": [
-      "2018-07-10",
-      "2018-07-15"
-    ],
-    "name": "The 35th International Conference on Machine Learning"
-  },
-  "EMNLP 2009": {
-    "url": "http://conferences.inf.ed.ac.uk/emnlp09/",
-    "submission": [
-      "2009-05-01"
-    ],
-    "location": "Singapore, Singapore",
-    "date": [
-      "2009-08-06",
-      "2009-08-07"
-    ],
-    "name": "Conference on Empirical Methods in Natural Language Processing"
-  },
-  "IJCAI 2013": {
-    "url": "http://ijcai13.org/",
-    "submission": [
-      "2013-01-31",
-      "2013-01-26"
-    ],
-    "location": "Beijing, China",
-    "date": [
-      "2013-08-03",
+      "2013-08-04",
       "2013-08-09"
     ],
-    "name": "The 2013 International Joint Conference on Artificial Intelligence "
-  },
-  "ICASSP 2015": {
-    "url": "http://icassp2015.org/",
+    "location": "Sofia, Bulgaria",
+    "name": "The 51st Annual Meeting of the Association for Computational Linguistics",
     "submission": [
-      "2014-10-05"
+      "2013-02-20"
     ],
-    "location": "Brisbane, Australia",
+    "url": "http://acl2013.org"
+  },
+  "ACL 2014": {
     "date": [
-      "2015-04-19",
-      "2015-04-24"
+      "2014-06-22",
+      "2014-06-27"
     ],
-    "name": "International Conference on Acoustics, Speech, and Signal Processing"
+    "location": "Baltimore, Maryland",
+    "name": "The 52nd Annual Meeting of the Association for Computational Linguistics",
+    "submission": [
+      "2014-01-10"
+    ],
+    "url": "http://www.cs.jhu.edu/ACL2014/"
   },
   "ACL 2015": {
-    "url": "http://acl2015.org/index.html",
-    "submission": [
-      "2015-02-27"
-    ],
-    "location": "Beijing",
     "date": [
       "2015-08-16",
       "2015-08-21"
     ],
-    "name": "The 53rd Annual Meeting of the Association for Computational Linguistics"
+    "location": "Beijing",
+    "name": "The 53rd Annual Meeting of the Association for Computational Linguistics",
+    "submission": [
+      "2015-02-27"
+    ],
+    "url": "http://acl2015.org/index.html"
+  },
+  "ACL 2016": {
+    "date": [
+      "2016-08-07",
+      "2016-08-12"
+    ],
+    "location": "Berlin, Germany",
+    "name": "The 54th Annual Meeting of the Association for Computational Linguistics",
+    "submission": [
+      "2016-03-18"
+    ],
+    "url": "http://acl2016.org/"
+  },
+  "ACL 2017": {
+    "date": [
+      "2017-07-30",
+      "2017-08-04"
+    ],
+    "location": "Vancouver, Canada",
+    "name": "The 55th annual meeting of the Association for Computational Linguistics",
+    "submission": [
+      "2017-02-06"
+    ],
+    "url": "http://acl2017.org/"
+  },
+  "ACL 2018": {
+    "date": [
+      "2018-07-15",
+      "2018-07-20"
+    ],
+    "location": "Melbourne, Australia",
+    "name": "56th Annual Meeting of the Association for Computational Linguistics",
+    "submission": [
+      "2018-02-22"
+    ],
+    "url": "http://acl2018.org/"
+  },
+  "ACL 2019": {
+    "date": [
+      "2019-07-28",
+      "2019-08-02"
+    ],
+    "location": "Florence, Italy",
+    "name": "57th Annual Meeting of the Association for Computational Linguistics",
+    "submission": [
+      "2019-03-04"
+    ],
+    "url": "http://www.acl2019.org"
+  },
+  "ACL HLT 2011": {
+    "date": [
+      "2011-06-19",
+      "2011-06-24"
+    ],
+    "location": "Portland, Oregon, USA",
+    "name": "The 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies",
+    "submission": [
+      "2010-12-17"
+    ],
+    "url": "http://www.acl2011.org/"
   },
   "CVPR 2008": {
-    "url": "http://vision.eecs.ucf.edu",
-    "submission": [
-      "2007-11-26"
-    ],
-    "location": "Anchorage, Alaska",
     "date": [
       "2008-06-24",
       "2008-06-26"
     ],
-    "name": "IEEE Conference on Computer Vision and Pattern Recognition"
+    "location": "Anchorage, Alaska",
+    "name": "IEEE Conference on Computer Vision and Pattern Recognition",
+    "submission": [
+      "2007-11-26"
+    ],
+    "url": "http://vision.eecs.ucf.edu"
+  },
+  "CVPR 2009": {
+    "date": [
+      "2009-06-20",
+      "2009-06-26"
+    ],
+    "location": "Miami Beach, Florida",
+    "name": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition",
+    "submission": [
+      "2008-11-20",
+      "2008-11-13"
+    ],
+    "url": "http://www.cvpr2009.org/"
+  },
+  "CVPR 2010": {
+    "date": [
+      "2010-06-13",
+      "2010-06-18"
+    ],
+    "location": "San Francisco, California",
+    "name": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition ",
+    "submission": [
+      "2009-11-19"
+    ],
+    "url": "http://cvl.umiacs.umd.edu/conferences/cvpr2010/ "
+  },
+  "CVPR 2012": {
+    "date": [
+      "2012-06-18",
+      "2012-06-20"
+    ],
+    "location": "Rhode Island",
+    "name": "25th IEEE Conference on Computer Vision and Pattern Recognition",
+    "submission": [
+      "2011-11-21"
+    ],
+    "url": "http://www.cvpr2012.org/"
+  },
+  "CVPR 2013": {
+    "date": [
+      "2013-06-23",
+      "2013-06-28"
+    ],
+    "location": "Portland, Oregon, USA",
+    "name": "26th IEEE Conference on Computer Vision and Pattern Recognition",
+    "submission": [
+      "2012-11-15"
+    ],
+    "url": "http://www.pamitc.org/cvpr13/"
+  },
+  "CVPR 2014": {
+    "date": [
+      "2014-06-24",
+      "2014-06-27"
+    ],
+    "location": "Columbus, Ohio",
+    "name": "27th IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "submission": [
+      "2013-11-01"
+    ],
+    "url": "http://www.pamitc.org/cvpr14/"
+  },
+  "CVPR 2015": {
+    "date": [
+      "2015-06-07",
+      "2015-06-12"
+    ],
+    "location": "Boston, MA",
+    "name": "28th IEEE Conference on Computer Vision and Pattern Recognition",
+    "submission": [
+      "2014-11-14"
+    ],
+    "url": "http://www.pamitc.org/cvpr15/"
+  },
+  "CVPR 2017": {
+    "date": [
+      "2017-06-24",
+      "2017-06-30"
+    ],
+    "location": "Puerto Rico",
+    "name": "CVPR 2017 : Computer Vision and Pattern Recognition",
+    "submission": [
+      "2017-04-10",
+      "2016-11-11"
+    ]
+  },
+  "CVPR 2018": {
+    "date": [
+      "2018-06-18",
+      "2018-06-22"
+    ],
+    "location": "SALT LAKE CITY, UTAH",
+    "name": "Computer Vision and Pattern Recognition",
+    "submission": [
+      "2017-11-15",
+      "2017-11-08"
+    ],
+    "url": "http://cvpr2018.thecvf.com/"
+  },
+  "CVPR 2019": {
+    "date": [
+      "2019-06-15",
+      "2019-06-21"
+    ],
+    "location": "Long Beach, CA",
+    "name": "Computer Vision and Pattern Recognition",
+    "submission": [
+      "2018-11-16"
+    ],
+    "url": "http://cvpr2019.thecvf.com/files/CFP_CVPR2019.pdf"
+  },
+  "CoNLL 2008": {
+    "date": [
+      "2008-08-16",
+      "2008-08-17"
+    ],
+    "location": "Manchester, UK",
+    "name": "CoNLL 2008 : The Twelfth Conference on Computational Natural Language Learning",
+    "submission": [
+      "2008-04-28"
+    ]
+  },
+  "CoNLL 2009": {
+    "date": [
+      "2009-06-04",
+      "2009-06-05"
+    ],
+    "location": "Boulder, CO, USA",
+    "name": "CoNLL 2009 : Thirteenth Conference on Computational Natural Language Learning",
+    "submission": [
+      "2009-04-15",
+      "2009-03-04"
+    ]
+  },
+  "CoNLL 2010": {
+    "date": [
+      "2010-07-15",
+      "2010-07-16"
+    ],
+    "location": "Uppsala, Sweden",
+    "name": "CoNLL 2010 : Fourteenth Conference on Computational Natural Language Learning",
+    "submission": [
+      "2010-05-06",
+      "2010-03-08"
+    ]
+  },
+  "CoNLL 2011": {
+    "date": [
+      "2011-06-23",
+      "2011-06-24"
+    ],
+    "location": "Portland, Oregon, USA",
+    "name": "CoNLL 2011 : Fifteenth Conference on Computational Natural Language Learning",
+    "submission": [
+      "2011-04-22",
+      "2011-03-04"
+    ]
+  },
+  "CoNLL 2013": {
+    "date": [
+      "2013-08-08",
+      "2013-08-09"
+    ],
+    "location": "Sofia, Bulgaria",
+    "name": "CoNLL 2013 : Seventeenth Conference on Computational Natural Language Learning",
+    "submission": [
+      "2013-06-10",
+      "2013-04-17"
+    ]
+  },
+  "CoNLL 2016": {
+    "date": [
+      "2016-08-11",
+      "2016-08-12"
+    ],
+    "location": "Berlin, Germany",
+    "name": "CoNLL 2016 : The SIGNLL Conference on Computational Natural Language Learning",
+    "submission": [
+      "2016-05-06"
+    ]
+  },
+  "CoNLL 2017": {
+    "date": [
+      "2017-08-03",
+      "2017-08-04"
+    ],
+    "location": "Vancouver, Canada",
+    "name": "CoNLL 2017 : The SIGNLL Conference on Computational Natural Language Learning",
+    "submission": [
+      "2017-04-23"
+    ]
+  },
+  "CoNLL 2018": {
+    "date": [
+      "2018-10-31",
+      "2018-11-01"
+    ],
+    "location": "Brussels, Belgium",
+    "name": "CoNLL 2018 : The SIGNLL Conference on Computational Natural Language Learning",
+    "submission": [
+      "2018-08-24",
+      "2018-06-01"
+    ]
+  },
+  "CoNLL-GEC 2014": {
+    "date": [
+      "2014-06-26",
+      "2014-06-27"
+    ],
+    "location": "Baltimore",
+    "name": "CoNLL-GEC 2014 : CoNLL-2014 Shared Task: Grammatical Error Correction",
+    "submission": [
+      "2014-04-21",
+      "2014-04-02"
+    ]
+  },
+  "EACL 2009": {
+    "date": [
+      "2009-03-30",
+      "2009-04-03"
+    ],
+    "location": "Athens, Greece",
+    "name": "European Chapter of the ACL",
+    "submission": [
+      "2008-10-10"
+    ],
+    "url": "http://eacl.coli.uni-saarland.de/page.php?id=eacl09-locdat"
+  },
+  "EACL 2012": {
+    "date": [
+      "2012-04-23",
+      "2012-04-27"
+    ],
+    "location": "Avignon",
+    "name": "Thirteenth Conference of the European Chapter of the Association for Computational Linguistics",
+    "submission": [
+      "2011-11-04"
+    ],
+    "url": "http://eacl2012.org/"
+  },
+  "EACL 2014": {
+    "date": [
+      "2014-04-26",
+      "2014-04-30"
+    ],
+    "location": "Gothenburg, Sweden",
+    "name": "14th Conference of the European Chapter of the Association for Computational Linguistics",
+    "submission": [
+      "2013-10-18"
+    ],
+    "url": "http://eacl2014.org"
+  },
+  "EACL 2017": {
+    "date": [
+      "2017-04-03",
+      "2017-04-07"
+    ],
+    "location": "Valencia, Spain",
+    "name": "The 15th Conference of the European Chapter of the Association for Computational Linguistics",
+    "submission": [
+      "2016-09-30"
+    ],
+    "url": "http://eacl2017.org/"
+  },
+  "ECCV 2008": {
+    "date": [
+      "2008-10-12",
+      "2008-10-18"
+    ],
+    "location": "Marseille, France",
+    "name": "10th European Conference on Computer Vision",
+    "submission": [
+      "2008-03-17"
+    ],
+    "url": "http://eccv2008.inrialpes.fr/"
+  },
+  "ECCV 2010": {
+    "date": [
+      "2010-09-05",
+      "2010-09-11"
+    ],
+    "location": "Hersonissos, Crete, Greece",
+    "name": "11th European Conference on Computer Vision ",
+    "submission": [
+      "2010-03-17"
+    ],
+    "url": "http://www.ics.forth.gr/eccv2010"
+  },
+  "ECCV 2012": {
+    "date": [
+      "2012-10-07",
+      "2012-10-13"
+    ],
+    "location": "Florence, Italy    ",
+    "name": "European Conference on Computer Vision    ",
+    "submission": [
+      "2012-03-05"
+    ],
+    "url": "http://eccv2012.unifi.it/"
+  },
+  "ECCV 2018": {
+    "date": [
+      "2018-09-08",
+      "2018-09-14"
+    ],
+    "location": "Munich, Germany",
+    "name": "European Conference on Computer Vision",
+    "submission": [
+      "2018-03-14"
+    ],
+    "url": "https://eccv2018.org"
+  },
+  "EMNLP 2008": {
+    "date": [
+      "2008-10-25",
+      "2008-10-27"
+    ],
+    "location": "Waikiki, Honolulu, Hawaii",
+    "name": "Conference on Empirical Methods in Natural Language Processing",
+    "submission": [
+      "2008-07-03"
+    ],
+    "url": "http://conferences.inf.ed.ac.uk/emnlp08/ "
+  },
+  "EMNLP 2009": {
+    "date": [
+      "2009-08-06",
+      "2009-08-07"
+    ],
+    "location": "Singapore, Singapore",
+    "name": "Conference on Empirical Methods in Natural Language Processing",
+    "submission": [
+      "2009-05-01"
+    ],
+    "url": "http://conferences.inf.ed.ac.uk/emnlp09/"
+  },
+  "EMNLP 2010": {
+    "date": [
+      "2010-10-09",
+      "2010-10-11"
+    ],
+    "location": "MIT, Cambridge, MA, USA",
+    "name": "2010 Conference on Empirical Methods in Natural Language Processing",
+    "submission": [
+      "2010-06-25",
+      "2010-06-18"
+    ],
+    "url": "http://www.lsi.upc.edu/events/emnlp2010/"
+  },
+  "EMNLP 2011": {
+    "date": [
+      "2011-07-27",
+      "2011-07-31"
+    ],
+    "location": "Edinburgh, Scotland, UK",
+    "name": "Conference on Empirical Methods in Natural Language Processing",
+    "submission": [
+      "2011-03-30"
+    ],
+    "url": "http://conferences.inf.ed.ac.uk/emnlp2011/"
+  },
+  "EMNLP 2013": {
+    "date": [
+      "2013-10-18",
+      "2013-10-21"
+    ],
+    "location": "Seattle, Washington",
+    "name": "Conference on Empirical Methods in Natural Language Processing",
+    "submission": [
+      "2013-07-05"
+    ],
+    "url": "http://hum.csse.unimelb.edu.au/emnlp2013/"
+  },
+  "EMNLP 2014": {
+    "date": [
+      "2014-10-25",
+      "2014-10-29"
+    ],
+    "location": "Doha, Qatar",
+    "name": "Conference on Empirical Methods in Natural Language Processing",
+    "submission": [
+      "2014-06-02"
+    ],
+    "url": "http://emnlp2014.org/"
+  },
+  "EMNLP 2015": {
+    "date": [
+      "2015-09-17",
+      "2015-09-21"
+    ],
+    "location": "Lisbon, Portugal",
+    "name": "Empirical Methods in Natural Language Processing",
+    "submission": [
+      "2015-05-31"
+    ],
+    "url": "http://www.emnlp2015.org"
+  },
+  "EMNLP 2016": {
+    "date": [
+      "2016-11-02",
+      "2016-11-06"
+    ],
+    "location": "Austin, TX, USA",
+    "name": "SIGDAT conference on Empirical Methods for Natural Language Processing",
+    "submission": [
+      "2016-06-03"
+    ],
+    "url": "http://www.emnlp2016.net/"
+  },
+  "EMNLP 2017": {
+    "date": [
+      "2017-09-07",
+      "2017-09-11"
+    ],
+    "location": "Copenhagen",
+    "name": "Conference on Empirical Methods in Natural Language Processing",
+    "submission": [
+      "2017-04-14"
+    ],
+    "url": "http://emnlp2017.net/"
+  },
+  "EMNLP 2018": {
+    "date": [
+      "2018-10-31",
+      "2018-11-04"
+    ],
+    "location": "Brussels, Belgium",
+    "name": "2018 Conference on Empirical Methods in Natural Language Processing ",
+    "submission": [
+      "2018-05-22"
+    ],
+    "url": "http://emnlp2018.org/"
+  },
+  "EMNLP-CoNLL 2012": {
+    "date": [
+      "2012-07-12",
+      "2012-07-14"
+    ],
+    "location": "Jeju, South Korea",
+    "name": "Conference on Empirical Methods in Natural Language Processing",
+    "submission": [
+      "2012-03-28"
+    ],
+    "url": "http://emnlp-conll2012.unige.ch/"
+  },
+  "ICASSP 2008": {
+    "date": [
+      "2008-03-30",
+      "2008-04-04"
+    ],
+    "location": "Las Vegas",
+    "name": "The 33rd International Conference on Acoustics, Speech, and Signal Processing",
+    "submission": [
+      "2007-10-05"
+    ],
+    "url": "http://www.icassp2008.org/CallForPapers.asp"
+  },
+  "ICASSP 2009": {
+    "date": [
+      "2009-04-19",
+      "2009-04-24"
+    ],
+    "location": "Taipei, Taiwan",
+    "name": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+    "submission": [
+      "2008-09-29"
+    ],
+    "url": "http://icassp09.com/"
+  },
+  "ICASSP 2010": {
+    "date": [
+      "2010-03-15",
+      "2010-03-19"
+    ],
+    "location": "Dallas, Texas, USA",
+    "name": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+    "submission": [
+      "2009-09-14"
+    ],
+    "url": "http://www.icassp2010.com"
+  },
+  "ICASSP 2011": {
+    "date": [
+      "2011-05-22",
+      "2011-05-27"
+    ],
+    "location": "Prague, Czech Republic",
+    "name": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+    "submission": [
+      "2010-10-20"
+    ],
+    "url": "http://www.icassp2011.com/"
+  },
+  "ICASSP 2012": {
+    "date": [
+      "2012-03-25",
+      "2012-03-30"
+    ],
+    "location": "Kyoto, Japan ",
+    "name": "International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2012",
+    "submission": [
+      "2011-09-27"
+    ],
+    "url": "http://www.icassp2012.org/"
+  },
+  "ICASSP 2013": {
+    "date": [
+      "2013-05-26",
+      "2013-05-30"
+    ],
+    "location": "Vancouver, Canada",
+    "name": "The 38th IEEE International Conference on Acoustics, Speech, and Signal Processing",
+    "submission": [
+      "2012-11-30"
+    ],
+    "url": "http://www.icassp2013.com/"
+  },
+  "ICASSP 2014": {
+    "date": [
+      "2014-05-04",
+      "2014-05-09"
+    ],
+    "location": "Florence, Italy",
+    "name": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+    "submission": [
+      "2013-11-04"
+    ],
+    "url": "http://www.icassp2014.org"
+  },
+  "ICASSP 2015": {
+    "date": [
+      "2015-04-19",
+      "2015-04-24"
+    ],
+    "location": "Brisbane, Australia",
+    "name": "International Conference on Acoustics, Speech, and Signal Processing",
+    "submission": [
+      "2014-10-05"
+    ],
+    "url": "http://icassp2015.org/"
+  },
+  "ICASSP 2017": {
+    "date": [
+      "2017-03-05",
+      "2017-03-09"
+    ],
+    "location": "New Orleans, LA, USA",
+    "name": "ICASSP 2017 - 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "submission": [
+      "2016-09-12"
+    ],
+    "url": "http://www.ieee.org/conferences_events/conferences/conferencedetails/index.html?Conf_ID=31846"
+  },
+  "ICASSP 2019": {
+    "date": [
+      "2019-05-12",
+      "2019-05-17"
+    ],
+    "location": "Brighton,UK",
+    "name": "International Conference on Acoustics, Speech, and Signal Processing",
+    "submission": [
+      "2018-10-29"
+    ],
+    "url": "http://icassp2019.com/"
+  },
+  "ICCV 2009": {
+    "date": [
+      "2009-09-29",
+      "2009-10-02"
+    ],
+    "location": "Kyoto, Japan",
+    "name": "International Conference on Computer Vision",
+    "submission": [
+      "2009-03-10"
+    ],
+    "url": "http://www.iccv2009.org/"
+  },
+  "ICCV 2011": {
+    "date": [
+      "2011-11-06",
+      "2011-11-13"
+    ],
+    "location": "Barcelona, Spain",
+    "name": "The 13th International Conference on Computer Vision",
+    "submission": [
+      "2011-03-01"
+    ],
+    "url": "http://www.iccv2011.org/"
+  },
+  "ICCV 2013": {
+    "date": [
+      "2013-12-01",
+      "2013-12-08"
+    ],
+    "location": "Sydney, Australia",
+    "name": "IEEE International Conference on Computer Vision",
+    "submission": [
+      "2013-04-12",
+      "2013-04-08"
+    ],
+    "url": "http://www.iccv2013.org/"
+  },
+  "ICCV 2017": {
+    "date": [
+      "2017-10-22",
+      "2017-10-29"
+    ],
+    "location": "Venice, Italy",
+    "name": "International Conference on Computer Vision",
+    "submission": [
+      "2017-03-17"
+    ],
+    "url": "http://iccv2017.thecvf.com/"
+  },
+  "ICCV 2019": {
+    "date": [
+      "2019-10-27",
+      "2019-11-03"
+    ],
+    "location": "Seoul, Korea",
+    "name": "International Conference on Computer Vision",
+    "submission": [
+      "2019-03-01"
+    ],
+    "url": "http://iccv2019.thecvf.com/submission/timeline"
+  },
+  "ICIP 2008": {
+    "date": [
+      "2008-10-12",
+      "2008-10-15"
+    ],
+    "location": "San Diego, California",
+    "name": "IEEE International Conference on Image Processing",
+    "submission": [
+      "2008-01-18"
+    ],
+    "url": "http://www.icip08.org/"
   },
   "ICIP 2009": {
-    "url": "http://www.icip2009.org/",
-    "submission": [
-      "2009-02-15"
-    ],
-    "location": "Cairo, Egypt",
     "date": [
       "2009-11-07",
       "2009-11-11"
     ],
-    "name": "IEEE International Conference on Image Processing"
+    "location": "Cairo, Egypt",
+    "name": "IEEE International Conference on Image Processing",
+    "submission": [
+      "2009-02-15"
+    ],
+    "url": "http://www.icip2009.org/"
+  },
+  "ICIP 2010": {
+    "date": [
+      "2010-09-12",
+      "2010-09-15"
+    ],
+    "location": "Hong Kong,  China",
+    "name": "IEEE International Conference on Image Processing",
+    "submission": [
+      "2010-01-25"
+    ],
+    "url": "http://www.icip2010.org/"
+  },
+  "ICIP 2011": {
+    "date": [
+      "2011-09-11",
+      "2011-09-14"
+    ],
+    "location": "Brussels, Belguim",
+    "name": "2011 IEEE International Conference on Image Processing ",
+    "submission": [
+      "2011-01-21"
+    ],
+    "url": "http://www.icip2011.com/"
+  },
+  "ICIP 2012": {
+    "date": [
+      "2012-09-30",
+      "2012-10-03"
+    ],
+    "location": "Orland, Florida, U.S.A.",
+    "name": "2012 IEEE International Conference on Image Processing",
+    "submission": [
+      "2012-01-12"
+    ],
+    "url": "http://www.icip2012.com/"
+  },
+  "ICIP 2013": {
+    "date": [
+      "2013-09-15",
+      "2013-09-18"
+    ],
+    "location": "Melbourne, Australia",
+    "name": "IEEE International Conference on Image Processing",
+    "submission": [
+      "2013-02-05"
+    ],
+    "url": "http://www.ieeeicip.org/"
+  },
+  "ICIP 2015": {
+    "date": [
+      "2015-09-27",
+      "2015-09-30"
+    ],
+    "location": "Quebec City, Canada",
+    "name": "International Conference on Image Processing",
+    "submission": [
+      "2015-01-15"
+    ],
+    "url": "http://www.icip2015.org/"
+  },
+  "ICIP 2016": {
+    "date": [
+      "2016-09-25",
+      "2016-09-28"
+    ],
+    "location": "Phoenix Convention Centre, Phoenix, Ariz",
+    "name": "International Conference on Image Processing",
+    "submission": [
+      "2016-01-25"
+    ],
+    "url": "http://www.ieeeicip2016.org/CallForPapers.asp"
+  },
+  "ICIP 2017": {
+    "date": [
+      "2017-09-18",
+      "2017-09-20"
+    ],
+    "location": "Beijing, China",
+    "name": "International Conference on Image Processing",
+    "submission": [
+      "TBD"
+    ],
+    "url": "http://2017.ieeeicip.org/"
+  },
+  "ICIP 2018": {
+    "date": [
+      "2018-10-07",
+      "2018-10-10"
+    ],
+    "location": "Athens, Greece",
+    "name": "International Conference on Image Processing",
+    "submission": [
+      "2018-02-07"
+    ],
+    "url": "https://2018.ieeeicip.org/"
+  },
+  "ICIP 2019": {
+    "date": [
+      "2019-09-22",
+      "2019-09-25"
+    ],
+    "location": "Taipei, Taiwan",
+    "name": "International Conference on Image Processing",
+    "submission": [
+      "2019-01-31"
+    ],
+    "url": "http://2019.ieeeicip.org/"
+  },
+  "ICLR 2013": {
+    "date": [
+      "2013-05-02",
+      "2013-05-04"
+    ],
+    "location": "Scottsdale, Arizona",
+    "name": "ICLR 2013 : International Conference on Learning Representations",
+    "submission": [
+      "2013-01-15"
+    ]
+  },
+  "ICLR 2016": {
+    "date": [
+      "2016-05-02",
+      "2016-05-04"
+    ],
+    "location": "San Juan, Puerto Rico",
+    "name": "ICLR 2016 : ICLR 2016 : International Conference on Learning Representations 2016",
+    "submission": [
+      "2016-02-04",
+      "2015-11-12"
+    ]
+  },
+  "ICLR 2017": {
+    "date": [
+      "2017-04-24",
+      "2017-04-26"
+    ],
+    "location": "Palais des Congr\u00e8s Neptune, Toulon, Fr",
+    "name": "ICLR 2017 : 5th International Conference on Learning Representations",
+    "submission": [
+      "2017-02-03",
+      "2016-11-04"
+    ]
+  },
+  "ICLR 2018": {
+    "date": [
+      "2018-04-30",
+      "2018-05-03"
+    ],
+    "location": "Vancouver, Canada",
+    "name": "ICLR 2018 : International Conference on Learning Representations",
+    "submission": [
+      "2017-10-27"
+    ]
+  },
+  "ICLR 2019": {
+    "date": [
+      "2019-04-30",
+      "2019-04-30"
+    ],
+    "location": "New Orleans",
+    "name": "ICLR 2019 : International Conference for Learning Representations",
+    "submission": [
+      "2018-09-27"
+    ]
+  },
+  "ICML 2008": {
+    "date": [
+      "2008-07-06",
+      "2008-07-09"
+    ],
+    "location": "Helsinki, Finland",
+    "name": "International Conference on Machine Learning",
+    "submission": [
+      "2008-02-08"
+    ],
+    "url": "http://icml2008.cs.helsinki.fi"
+  },
+  "ICML 2009": {
+    "date": [
+      "2009-06-14",
+      "2009-06-18"
+    ],
+    "location": "Montreal, Canada",
+    "name": " The 26th International Conference On Machine Learning",
+    "submission": [
+      "2009-01-26"
+    ],
+    "url": "http://www.cs.mcgill.ca/~icml2009/"
+  },
+  "ICML 2010": {
+    "date": [
+      "2010-06-21",
+      "2010-06-24"
+    ],
+    "location": "Haifa, Israel",
+    "name": "The 27th International Conference on Machine Learning",
+    "submission": [
+      "2010-02-01"
+    ],
+    "url": "http://www.icml2010.org/"
+  },
+  "ICML 2012": {
+    "date": [
+      "2012-06-27",
+      "2012-06-29"
+    ],
+    "location": "Edinburgh, Scotland, United Kingdom",
+    "name": "29th International Conference on Machine Learning",
+    "submission": [
+      "2012-02-24"
+    ],
+    "url": "http://icml.cc/2012/call-for-papers/"
+  },
+  "ICML 2013": {
+    "date": [
+      "2013-06-16",
+      "2013-06-21"
+    ],
+    "location": "Atlanta, GA, USA",
+    "name": "The 30th International Conference on Machine Learning",
+    "submission": [
+      "2013-02-15"
+    ],
+    "url": "http://icml.cc/2013/"
+  },
+  "ICML 2014": {
+    "date": [
+      "2014-06-21",
+      "2014-06-26"
+    ],
+    "location": "Beijing, China",
+    "name": "31st International Conference on Machine Learning ",
+    "submission": [
+      "2014-01-31"
+    ],
+    "url": "http://icml.cc/2014"
+  },
+  "ICML 2015": {
+    "date": [
+      "2015-07-06",
+      "2015-07-11"
+    ],
+    "location": "Lille, France",
+    "name": "International Conference on Machine Learning 2015",
+    "submission": [
+      "2015-02-06"
+    ],
+    "url": "http://icml.cc/2015/"
+  },
+  "ICML 2016": {
+    "date": [
+      "2016-06-19",
+      "2016-06-24"
+    ],
+    "location": "New York",
+    "name": "33rd International Conference on Machine Learning (ICML-2016)",
+    "submission": [
+      "2016-02-05"
+    ],
+    "url": "http://icml.cc/2016/"
+  },
+  "ICML 2017": {
+    "date": [
+      "2017-08-06",
+      "2017-08-11"
+    ],
+    "location": "Sydney, Australia",
+    "name": " 34th International Conference on Machine Learning",
+    "submission": [
+      "2017-02-24"
+    ],
+    "url": "http://icml.cc/2017"
+  },
+  "ICML 2018": {
+    "date": [
+      "2018-07-10",
+      "2018-07-15"
+    ],
+    "location": "Stockholmsm\u00e4ssan, Stockholm SWEDEN",
+    "name": "The 35th International Conference on Machine Learning",
+    "submission": [
+      "2018-02-09"
+    ],
+    "url": "https://icml.cc/Conferences/2018/"
+  },
+  "ICML 2019": {
+    "date": [
+      "2019-06-10",
+      "2019-06-15"
+    ],
+    "location": "Long Beach, CA, USA",
+    "name": "36th International Conference on Machine Learning",
+    "submission": [
+      "2019-01-23",
+      "2019-01-18"
+    ],
+    "url": "https://icml.cc/Conferences/2019"
+  },
+  "IJCAI 2009": {
+    "date": [
+      "2009-07-11",
+      "2009-07-17"
+    ],
+    "location": "Pasadena, California, USA",
+    "name": "TWENTY FIRST INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE",
+    "submission": [
+      "2009-01-12",
+      "2009-01-07"
+    ],
+    "url": "http://ijcai-09.org/index.html"
+  },
+  "IJCAI 2011": {
+    "date": [
+      "2011-07-16",
+      "2011-07-22"
+    ],
+    "location": "Barcelona, Spain",
+    "name": "Twenty-second International Joint Conference on Artificial Intelligence",
+    "submission": [
+      "2011-01-24",
+      "2011-01-19"
+    ],
+    "url": "http://ijcai-11.iiia.csic.es"
+  },
+  "IJCAI 2013": {
+    "date": [
+      "2013-08-03",
+      "2013-08-09"
+    ],
+    "location": "Beijing, China",
+    "name": "The 2013 International Joint Conference on Artificial Intelligence ",
+    "submission": [
+      "2013-01-31",
+      "2013-01-26"
+    ],
+    "url": "http://ijcai13.org/"
+  },
+  "IJCAI 2015": {
+    "date": [
+      "2015-07-28",
+      "2015-08-01"
+    ],
+    "location": "Buenos Aires, Argentina",
+    "name": "International Joint Conference on Artificial Intelligence",
+    "submission": [
+      "2015-02-12",
+      "2015-02-08"
+    ],
+    "url": "http://ijcai-15.org/"
+  },
+  "IJCAI 2016": {
+    "date": [
+      "2016-07-09",
+      "2016-07-15"
+    ],
+    "location": "New York City, US",
+    "name": "Twenty-Fifth International Joint Conference on Artificial Intelligence",
+    "submission": [
+      "2016-02-02",
+      "2016-01-27"
+    ],
+    "url": "http://ijcai-16.org/"
+  },
+  "IJCAI 2017": {
+    "date": [
+      "2017-08-19",
+      "2017-08-25"
+    ],
+    "location": "Melbourne, Australia",
+    "name": "International Joint Conference on Artificial Intelligence",
+    "submission": [
+      "2017-02-19"
+    ],
+    "url": "http://ijcai-17.org/MainTrackCFP.html"
+  },
+  "IJCAI 2019": {
+    "date": [
+      "2019-08-10",
+      "2019-08-16"
+    ],
+    "location": "Macau, China",
+    "name": "International Joint Conference on Artificial Intelligence",
+    "submission": [
+      "2019-02-25"
+    ],
+    "url": "http://www.ijcai19.org/"
+  },
+  "NAACL 2013": {
+    "date": [
+      "2013-06-09",
+      "2013-06-14"
+    ],
+    "location": "Atlanta",
+    "name": "The 2013 Conference of the North American Chapter of the Association for Computational Linguistics",
+    "submission": [
+      "2012-12-10"
+    ],
+    "url": "http://naacl2013.naacl.org/"
+  },
+  "NAACL 2015": {
+    "date": [
+      "2015-05-31",
+      "2015-06-05"
+    ],
+    "location": "Denver, Colorado",
+    "name": "North American Chapter of the Association for Computational Linguistics (NAACL) 2015",
+    "submission": [
+      "2014-12-04"
+    ],
+    "url": "http://nlp.eecs.umich.edu/~naacl15/"
+  },
+  "NAACL 2019": {
+    "date": [
+      "2019-06-03",
+      "2019-06-05"
+    ],
+    "location": "Hyatt Regency in Minneapolis",
+    "name": "North American Chapter of the Association for Computational Linguistics",
+    "submission": [
+      "2018-12-10",
+      "2018-12-03"
+    ],
+    "url": "http://naacl2019.org/"
+  },
+  "NAACL HLT 2010": {
+    "date": [
+      "2010-06-01",
+      "2010-06-06"
+    ],
+    "location": "Los Angeles, CA, USA",
+    "name": "Human Language Technologies: The 11th Annual Conference of the North American Chapter of the Association for Computational Linguistics",
+    "submission": [
+      "2009-12-01"
+    ],
+    "url": "http://naaclhlt2010.isi.edu"
+  },
+  "NAACL HLT 2012": {
+    "date": [
+      "2012-06-03",
+      "2012-06-08"
+    ],
+    "location": "Montreal, Canada",
+    "name": "Human Language Technologies: The 12th Annual Conference of the North American Chapter of the Association for Computational Linguistics",
+    "submission": [
+      "2012-01-06"
+    ],
+    "url": "http://www.naaclhlt2012.org/"
+  },
+  "NAACL-HLT 2009": {
+    "date": [
+      "2009-05-31",
+      "2009-06-05"
+    ],
+    "location": "Boulder, Colorado, USA",
+    "name": "North American Chapter of the Association for Computational Linguistics - Human Language Technologies 2009",
+    "submission": [
+      "2008-12-01"
+    ],
+    "url": "/cfp/allcat"
+  },
+  "NAACL-HLT 2016": {
+    "date": [
+      "2016-06-12",
+      "2016-06-17"
+    ],
+    "location": "San Diego",
+    "name": "The 15th Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "submission": [
+      "2016-01-06"
+    ],
+    "url": "http://naacl.org/naacl-hlt-2016/"
+  },
+  "NIPS 2008": {
+    "date": [
+      "2008-12-12",
+      "2008-12-13"
+    ],
+    "location": "Vancouver, Canada",
+    "name": "Twenty-Second Annual Conference on Neural Information Processing Systems",
+    "submission": [
+      "2008-06-06"
+    ],
+    "url": "http://nips.cc/Conferences/2008/"
+  },
+  "NIPS 2010": {
+    "date": [
+      "2010-12-06",
+      "2010-12-09"
+    ],
+    "location": "Vancouver, B.C., Canada",
+    "name": "Neural Information Processing Systems Conference",
+    "submission": [
+      "2010-06-03"
+    ],
+    "url": "http://nips.cc/Conferences/2010/"
+  },
+  "NIPS 2011": {
+    "date": [
+      "2011-12-12",
+      "2011-12-15"
+    ],
+    "location": "Granada, Spain",
+    "name": "Neural Information Processing Systems Conference",
+    "submission": [
+      "2011-06-02"
+    ],
+    "url": "http://nips.cc/Conferences/2011/"
+  },
+  "NIPS 2012": {
+    "date": [
+      "2012-12-03",
+      "2012-12-06"
+    ],
+    "location": "Lake Tahoe, Nevada, USA",
+    "name": "Neural Information Processing Systems Conference",
+    "submission": [
+      "2012-06-01"
+    ],
+    "url": "http://nips.cc/Conferences/2012/"
+  },
+  "NIPS 2013": {
+    "date": [
+      "2013-12-05",
+      "2013-12-10"
+    ],
+    "location": "Lake Tahoe, Nevada, USA",
+    "name": "Neural Information Processing Systems Conference",
+    "submission": [
+      "2013-05-31"
+    ],
+    "url": "http://nips.cc/"
+  },
+  "NIPS 2014": {
+    "date": [
+      "2014-12-08",
+      "2014-12-13"
+    ],
+    "location": "Montreal, Quebec, Canada",
+    "name": "Neural Information Processing Systems Conference",
+    "submission": [
+      "2014-06-06"
+    ],
+    "url": "http://nips.cc/Conferences/2014/"
+  },
+  "NIPS 2015": {
+    "date": [
+      "2015-12-07",
+      "2015-12-12"
+    ],
+    "location": "Montreal, Canada",
+    "name": "Neural Information Processing Systems Conference",
+    "submission": [
+      "2015-06-05"
+    ],
+    "url": "https://nips.cc/Conferences/2015/"
+  },
+  "NIPS 2016": {
+    "date": [
+      "2016-12-04",
+      "2016-12-09"
+    ],
+    "location": "Barcelona, SPAIN ",
+    "name": "The Thirtieth Annual Conference on Neural Information Processing Systems",
+    "submission": [
+      "2016-05-20"
+    ],
+    "url": "https://nips.cc/Conferences/2016"
+  },
+  "NIPS 2017": {
+    "date": [
+      "2017-12-04",
+      "2017-12-09"
+    ],
+    "location": "Long Beach, CA, USA",
+    "name": "The Thirty-first Annual Conference on Neural Information Processing Systems",
+    "submission": [
+      "2017-05-19"
+    ],
+    "url": "https://nips.cc/Conferences/2017"
+  },
+  "NIPS 2018": {
+    "date": [
+      "2018-12-03",
+      "2018-12-08"
+    ],
+    "location": "Montr\u00e9al, CANADA",
+    "name": "The Thirty-second Annual Conference on Neural Information Processing Systems",
+    "submission": [
+      "TBD"
+    ],
+    "url": "https://nips.cc/Conferences/2018"
+  },
+  "TACL 2017": {
+    "date": [
+      "2017-06-26",
+      "2017-06-30"
+    ],
+    "location": "Prague",
+    "name": "TACL 2017 : TOPOLOGY, ALGEBRA AND CATEGORIES IN LOGIC",
+    "submission": [
+      "2017-05-20",
+      "2017-03-10"
+    ]
   }
 }
