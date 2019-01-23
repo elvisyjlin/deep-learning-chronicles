@@ -1497,5 +1497,208 @@
     "source": "Arxiv",
     "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
     "url": "https://arxiv.org/abs/1810.04805"
+  },
+  {
+    "abstract": "We propose a deep learning method for single image super-resolution (SR). Our method directly learns an end-to-end mapping between the low/high-resolution images. The mapping is represented as a deep convolutional neural network (CNN) that takes the low-resolution image as the input and outputs the high-resolution one. We further show that traditional sparse-coding-based SR methods can also be viewed as a deep convolutional network. But unlike traditional methods that handle each component separately, our method jointly optimizes all layers. Our deep CNN has a lightweight structure, yet demonstrates state-of-the-art restoration quality, and achieves fast speed for practical on-line usage. We explore different network structures and parameter settings to achieve trade-offs between performance and speed. Moreover, we extend our network to cope with three color channels simultaneously, and show better overall reconstruction quality.",
+    "authors": [
+      "Chao Dong",
+      "Chen Change Loy",
+      "Kaiming He",
+      "Xiaoou Tang"
+    ],
+    "dates": [
+      "2014-12-31",
+      "2015-07-31"
+    ],
+    "name": "SRCNN",
+    "source": "ECCV 2014",
+    "title": "Image Super-Resolution Using Deep Convolutional Networks",
+    "url": "https://arxiv.org/abs/1501.00092"
+  },
+  {
+    "abstract": "As a successful deep model applied in image super-resolution (SR), the Super-Resolution Convolutional Neural Network (SRCNN) has demonstrated superior performance to the previous hand-crafted models either in speed and restoration quality. However, the high computational cost still hinders it from practical usage that demands real-time performance (24 fps). In this paper, we aim at accelerating the current SRCNN, and propose a compact hourglass-shape CNN structure for faster and better SR. We re-design the SRCNN structure mainly in three aspects. First, we introduce a deconvolution layer at the end of the network, then the mapping is learned directly from the original low-resolution image (without interpolation) to the high-resolution one. Second, we reformulate the mapping layer by shrinking the input feature dimension before mapping and expanding back afterwards. Third, we adopt smaller filter sizes but more mapping layers. The proposed model achieves a speed up of more than 40 times with even superior restoration quality. Further, we present the parameter settings that can achieve real-time performance on a generic CPU while still maintaining good performance. A corresponding transfer strategy is also proposed for fast training and testing across different upscaling factors.",
+    "authors": [
+      "Chao Dong",
+      "Chen Change Loy",
+      "Xiaoou Tang"
+    ],
+    "dates": [
+      "2016-08-01"
+    ],
+    "name": "FSRCNN",
+    "source": "ECCV 2016",
+    "title": "Accelerating the Super-Resolution Convolutional Neural Network",
+    "url": "https://arxiv.org/abs/1608.00367"
+  },
+  {
+    "abstract": "Recently, several models based on deep neural networks have achieved great success in terms of both reconstruction accuracy and computational performance for single image super-resolution. In these methods, the low resolution (LR) input image is upscaled to the high resolution (HR) space using a single filter, commonly bicubic interpolation, before reconstruction. This means that the super-resolution (SR) operation is performed in HR space. We demonstrate that this is sub-optimal and adds computational complexity. In this paper, we present the first convolutional neural network (CNN) capable of real-time SR of 1080p videos on a single K2 GPU. To achieve this, we propose a novel CNN architecture where the feature maps are extracted in the LR space. In addition, we introduce an efficient sub-pixel convolution layer which learns an array of upscaling filters to upscale the final LR feature maps into the HR output. By doing so, we effectively replace the handcrafted bicubic filter in the SR pipeline with more complex upscaling filters specifically trained for each feature map, whilst also reducing the computational complexity of the overall SR operation. We evaluate the proposed approach using images and videos from publicly available datasets and show that it performs significantly better (+0.15dB on Images and +0.39dB on Videos) and is an order of magnitude faster than previous CNN-based methods.",
+    "authors": [
+      "Wenzhe Shi",
+      "Jose Caballero",
+      "Ferenc Husz\u00e1r",
+      "Johannes Totz",
+      "Andrew P. Aitken",
+      "Rob Bishop",
+      "Daniel Rueckert",
+      "Zehan Wang"
+    ],
+    "dates": [
+      "2016-09-16",
+      "2016-09-23"
+    ],
+    "name": "ESPCN",
+    "source": "CVPR 2016",
+    "title": "Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network",
+    "url": "https://arxiv.org/abs/1609.05158"
+  },
+  {
+    "abstract": "We present a highly accurate single-image super-resolution (SR) method. Our method uses a very deep convolutional network inspired by VGG-net used for ImageNet classification \\cite{simonyan2015very}. We find increasing our network depth shows a significant improvement in accuracy. Our final model uses 20 weight layers. By cascading small filters many times in a deep network structure, contextual information over large image regions is exploited in an efficient way. With very deep networks, however, convergence speed becomes a critical issue during training. We propose a simple yet effective training procedure. We learn residuals only and use extremely high learning rates ($10^4$ times higher than SRCNN \\cite{dong2015image}) enabled by adjustable gradient clipping. Our proposed method performs better than existing methods in accuracy and visual improvements in our results are easily noticeable.",
+    "authors": [
+      "Jiwon Kim",
+      "Jung Kwon Lee",
+      "Kyoung Mu Lee"
+    ],
+    "dates": [
+      "2015-11-14",
+      "2016-11-11"
+    ],
+    "name": "VDSR",
+    "source": "CVPR 2016",
+    "title": "Accurate Image Super-Resolution Using Very Deep Convolutional Networks",
+    "url": "https://arxiv.org/abs/1511.04587"
+  },
+  {
+    "abstract": "We propose an image super-resolution method (SR) using a deeply-recursive convolutional network (DRCN). Our network has a very deep recursive layer (up to 16 recursions). Increasing recursion depth can improve performance without introducing new parameters for additional convolutions. Albeit advantages, learning a DRCN is very hard with a standard gradient descent method due to exploding/vanishing gradients. To ease the difficulty of training, we propose two extensions: recursive-supervision and skip-connection. Our method outperforms previous methods by a large margin.",
+    "authors": [
+      "Jiwon Kim",
+      "Jung Kwon Lee",
+      "Kyoung Mu Lee"
+    ],
+    "dates": [
+      "2015-11-14",
+      "2016-11-11"
+    ],
+    "name": "DRCN",
+    "source": "CVPR 2016",
+    "title": "Deeply-Recursive Convolutional Network for Image Super-Resolution",
+    "url": "https://arxiv.org/abs/1511.04491"
+  },
+  {
+    "abstract": "Image restoration, including image denoising, super resolution, inpainting, and so on, is a well-studied problem in computer vision and image processing, as well as a test bed for low-level image modeling algorithms. In this work, we propose a very deep fully convolutional auto-encoder network for image restoration, which is a encoding-decoding framework with symmetric convolutional-deconvolutional layers. In other words, the network is composed of multiple layers of convolution and de-convolution operators, learning end-to-end mappings from corrupted images to the original ones. The convolutional layers capture the abstraction of image contents while eliminating corruptions. Deconvolutional layers have the capability to upsample the feature maps and recover the image details. To deal with the problem that deeper networks tend to be more difficult to train, we propose to symmetrically link convolutional and deconvolutional layers with skip-layer connections, with which the training converges much faster and attains better results.",
+    "authors": [
+      "Xiao-Jiao Mao",
+      "Chunhua Shen",
+      "Yu-Bin Yang"
+    ],
+    "dates": [
+      "2016-06-29",
+      "2016-08-30"
+    ],
+    "name": "RED",
+    "source": "NIPS 2016",
+    "title": "Image Restoration Using Convolutional Auto-encoders with Symmetric Skip Connections",
+    "url": "https://arxiv.org/abs/1606.08921"
+  },
+  {
+    "abstract": "This paper introduces a novel architecture for reinforcement learning with deep neural networks designed to handle state and action spaces characterized by natural language, as found in text-based games. Termed a deep reinforcement relevance network (DRRN), the architecture represents action and state spaces with separate embedding vectors, which are combined with an interaction function to approximate the Q-function in reinforcement learning. We evaluate the DRRN on two popular text games, showing superior performance over other deep Q-learning architectures. Experiments with paraphrased action descriptions show that the model is extracting meaning rather than simply memorizing strings of text.",
+    "authors": [
+      "Ji He",
+      "Jianshu Chen",
+      "Xiaodong He",
+      "Jianfeng Gao",
+      "Lihong Li",
+      "Li Deng",
+      "Mari Ostendorf"
+    ],
+    "dates": [
+      "2015-11-14",
+      "2016-06-08"
+    ],
+    "name": "DRRN",
+    "source": "ACL 2016",
+    "title": "Deep Reinforcement Learning with a Natural Language Action Space",
+    "url": "https://arxiv.org/abs/1511.04636"
+  },
+  {
+    "abstract": "Convolutional neural networks have recently demonstrated high-quality reconstruction for single-image super-resolution. In this paper, we propose the Laplacian Pyramid Super-Resolution Network (LapSRN) to progressively reconstruct the sub-band residuals of high-resolution images. At each pyramid level, our model takes coarse-resolution feature maps as input, predicts the high-frequency residuals, and uses transposed convolutions for upsampling to the finer level. Our method does not require the bicubic interpolation as the pre-processing step and thus dramatically reduces the computational complexity. We train the proposed LapSRN with deep supervision using a robust Charbonnier loss function and achieve high-quality reconstruction. Furthermore, our network generates multi-scale predictions in one feed-forward pass through the progressive reconstruction, thereby facilitates resource-aware applications. Extensive quantitative and qualitative evaluations on benchmark datasets show that the proposed algorithm performs favorably against the state-of-the-art methods in terms of speed and accuracy.",
+    "authors": [
+      "Wei-Sheng Lai",
+      "Jia-Bin Huang",
+      "Narendra Ahuja",
+      "Ming-Hsuan Yang"
+    ],
+    "dates": [
+      "2017-04-12",
+      "2017-10-09"
+    ],
+    "name": "LapSRN",
+    "source": "CVPR 2017",
+    "title": "Deep Laplacian Pyramid Networks for Fast and Accurate Super-Resolution",
+    "url": "https://arxiv.org/abs/1704.03915"
+  },
+  {
+    "abstract": "Despite the breakthroughs in accuracy and speed of single image super-resolution using faster and deeper convolutional neural networks, one central problem remains largely unsolved: how do we recover the finer texture details when we super-resolve at large upscaling factors? The behavior of optimization-based super-resolution methods is principally driven by the choice of the objective function. Recent work has largely focused on minimizing the mean squared reconstruction error. The resulting estimates have high peak signal-to-noise ratios, but they are often lacking high-frequency details and are perceptually unsatisfying in the sense that they fail to match the fidelity expected at the higher resolution. In this paper, we present SRGAN, a generative adversarial network (GAN) for image super-resolution (SR). To our knowledge, it is the first framework capable of inferring photo-realistic natural images for 4x upscaling factors. To achieve this, we propose a perceptual loss function which consists of an adversarial loss and a content loss. The adversarial loss pushes our solution to the natural image manifold using a discriminator network that is trained to differentiate between the super-resolved images and original photo-realistic images. In addition, we use a content loss motivated by perceptual similarity instead of similarity in pixel space. Our deep residual network is able to recover photo-realistic textures from heavily downsampled images on public benchmarks. An extensive mean-opinion-score (MOS) test shows hugely significant gains in perceptual quality using SRGAN. The MOS scores obtained with SRGAN are closer to those of the original high-resolution images than to those obtained with any state-of-the-art method.",
+    "authors": [
+      "Christian Ledig",
+      "Lucas Theis",
+      "Ferenc Huszar",
+      "Jose Caballero",
+      "Andrew Cunningham",
+      "Alejandro Acosta",
+      "Andrew Aitken",
+      "Alykhan Tejani",
+      "Johannes Totz",
+      "Zehan Wang",
+      "Wenzhe Shi"
+    ],
+    "dates": [
+      "2016-09-15",
+      "2017-05-25"
+    ],
+    "name": "SRGAN",
+    "source": "CVPR 2017",
+    "title": "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network",
+    "url": "https://arxiv.org/abs/1609.04802"
+  },
+  {
+    "abstract": "Despite the breakthroughs in accuracy and speed of single image super-resolution using faster and deeper convolutional neural networks, one central problem remains largely unsolved: how do we recover the finer texture details when we super-resolve at large upscaling factors? The behavior of optimization-based super-resolution methods is principally driven by the choice of the objective function. Recent work has largely focused on minimizing the mean squared reconstruction error. The resulting estimates have high peak signal-to-noise ratios, but they are often lacking high-frequency details and are perceptually unsatisfying in the sense that they fail to match the fidelity expected at the higher resolution. In this paper, we present SRGAN, a generative adversarial network (GAN) for image super-resolution (SR). To our knowledge, it is the first framework capable of inferring photo-realistic natural images for 4x upscaling factors. To achieve this, we propose a perceptual loss function which consists of an adversarial loss and a content loss. The adversarial loss pushes our solution to the natural image manifold using a discriminator network that is trained to differentiate between the super-resolved images and original photo-realistic images. In addition, we use a content loss motivated by perceptual similarity instead of similarity in pixel space. Our deep residual network is able to recover photo-realistic textures from heavily downsampled images on public benchmarks. An extensive mean-opinion-score (MOS) test shows hugely significant gains in perceptual quality using SRGAN. The MOS scores obtained with SRGAN are closer to those of the original high-resolution images than to those obtained with any state-of-the-art method.",
+    "authors": [
+      "Christian Ledig",
+      "Lucas Theis",
+      "Ferenc Huszar",
+      "Jose Caballero",
+      "Andrew Cunningham",
+      "Alejandro Acosta",
+      "Andrew Aitken",
+      "Alykhan Tejani",
+      "Johannes Totz",
+      "Zehan Wang",
+      "Wenzhe Shi"
+    ],
+    "dates": [
+      "2016-09-15",
+      "2017-05-25"
+    ],
+    "name": "SRResNet",
+    "source": "CVPR 2017",
+    "title": "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network",
+    "url": "https://arxiv.org/abs/1609.04802"
+  },
+  {
+    "abstract": "Recent research on super-resolution has progressed with the development of deep convolutional neural networks (DCNN). In particular, residual learning techniques exhibit improved performance. In this paper, we develop an enhanced deep super-resolution network (EDSR) with performance exceeding those of current state-of-the-art SR methods. The significant performance improvement of our model is due to optimization by removing unnecessary modules in conventional residual networks. The performance is further improved by expanding the model size while we stabilize the training procedure. We also propose a new multi-scale deep super-resolution system (MDSR) and training method, which can reconstruct high-resolution images of different upscaling factors in a single model. The proposed methods show superior performance over the state-of-the-art methods on benchmark datasets and prove its excellence by winning the NTIRE2017 Super-Resolution Challenge.",
+    "authors": [
+      "Bee Lim",
+      "Sanghyun Son",
+      "Heewon Kim",
+      "Seungjun Nah",
+      "Kyoung Mu Lee"
+    ],
+    "dates": [
+      "2017-07-10"
+    ],
+    "name": "EDSR",
+    "source": "CVPRW 2017",
+    "title": "Enhanced Deep Residual Networks for Single Image Super-Resolution",
+    "url": "https://arxiv.org/abs/1707.02921"
   }
 ]
