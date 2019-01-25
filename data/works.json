@@ -661,6 +661,25 @@
     "url": "https://arxiv.org/abs/1611.04076"
   },
   {
+    "abstract": "Unsupervised learning with generative adversarial networks (GANs) has proven to be hugely successful. Regular GANs hypothesize the discriminator as a classifier with the sigmoid cross entropy loss function. However, we found that this loss function may lead to the vanishing gradients problem during the learning process. To overcome such a problem, we propose in this paper the Least Squares Generative Adversarial Networks (LSGANs) which adopt the least squares loss for both the discriminator and the generator. We show that minimizing the objective function of LSGAN yields minimizing the Pearson $\\chi^2$ divergence. We also show that the derived objective function that yields minimizing the Pearson $\\chi^2$ divergence performs better than the classical one of using least squares for classification. There are two benefits of LSGANs over regular GANs. First, LSGANs are able to generate higher quality images than regular GANs. Second, LSGANs perform more stably during the learning process. For evaluating the image quality, we conduct both qualitative and quantitative experiments, and the experimental results show that LSGANs can generate higher quality images than regular GANs. Furthermore, we evaluate the stability of LSGANs in two groups. One is to compare between LSGANs and regular GANs without gradient penalty. We conduct three experiments, including Gaussian mixture distribution, difficult architectures, and a newly proposed method --- datasets with small variability, to illustrate the stability of LSGANs. The other one is to compare between LSGANs with gradient penalty (LSGANs-GP) and WGANs with gradient penalty (WGANs-GP). The experimental results show that LSGANs-GP succeed in training for all the difficult architectures used in WGANs-GP, including 101-layer ResNet.",
+    "authors": [
+      "Xudong Mao",
+      "Qing Li",
+      "Haoran Xie",
+      "Raymond Y.K. Lau",
+      "Zhen Wang",
+      "Stephen Paul Smolley"
+    ],
+    "dates": [
+      "2017-12-18",
+      "2018-09-21"
+    ],
+    "name": "LSGAN-GP",
+    "source": "TPAMI 2018",
+    "title": "On the Effectiveness of Least Squares Generative Adversarial Networks",
+    "url": "https://arxiv.org/abs/1712.06391"
+  },
+  {
     "abstract": "We introduce a new algorithm named WGAN, an alternative to traditional GAN training. In this new model, we show that we can improve the stability of learning, get rid of problems like mode collapse, and provide meaningful learning curves useful for debugging and hyperparameter searches. Furthermore, we show that the corresponding optimization problem is sound, and provide extensive theoretical work highlighting the deep connections to other distances between distributions.",
     "authors": [
       "Martin Arjovsky",
@@ -778,6 +797,82 @@
     "source": "Arxiv",
     "title": "On Convergence and Stability of GANs",
     "url": "https://arxiv.org/abs/1705.07215"
+  },
+  {
+    "abstract": "Generative neural samplers are probabilistic models that implement sampling using feedforward neural networks: they take a random input vector and produce a sample from a probability distribution defined by the network weights. These models are expressive and allow efficient computation of samples and derivatives, but cannot be used for computing likelihoods or for marginalization. The generative-adversarial training method allows to train such models through the use of an auxiliary discriminative neural network. We show that the generative-adversarial approach is a special case of an existing more general variational divergence estimation approach. We show that any f-divergence can be used for training generative neural samplers. We discuss the benefits of various choices of divergence functions on training complexity and the quality of the obtained generative models.",
+    "authors": [
+      "Sebastian Nowozin",
+      "Botond Cseke",
+      "Ryota Tomioka"
+    ],
+    "dates": [
+      "2016-06-02"
+    ],
+    "name": "f-GAN",
+    "source": "NIPS 2016",
+    "title": "f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization",
+    "url": "https://arxiv.org/abs/1606.00709"
+  },
+  {
+    "abstract": "One of the challenges in the study of generative adversarial networks is the instability of its training. In this paper, we propose a novel weight normalization technique called spectral normalization to stabilize the training of the discriminator. Our new normalization technique is computationally light and easy to incorporate into existing implementations. We tested the efficacy of spectral normalization on CIFAR10, STL-10, and ILSVRC2012 dataset, and we experimentally confirmed that spectrally normalized GANs (SN-GANs) is capable of generating images of better or equal quality relative to the previous training stabilization techniques.",
+    "authors": [
+      "Takeru Miyato",
+      "Toshiki Kataoka",
+      "Masanori Koyama",
+      "Yuichi Yoshida"
+    ],
+    "dates": [
+      "2018-02-16"
+    ],
+    "name": "SNGAN",
+    "source": "ICLR 2018",
+    "title": "Spectral Normalization for Generative Adversarial Networks",
+    "url": "https://arxiv.org/abs/1802.05957"
+  },
+  {
+    "abstract": "We propose a novel, projection based way to incorporate the conditional information into the discriminator of GANs that respects the role of the conditional information in the underlining probabilistic model. This approach is in contrast with most frameworks of conditional GANs used in application today, which use the conditional information by concatenating the (embedded) conditional vector to the feature vectors. With this modification, we were able to significantly improve the quality of the class conditional image generation on ILSVRC2012 (ImageNet) 1000-class image dataset from the current state-of-the-art result, and we achieved this with a single pair of a discriminator and a generator. We were also able to extend the application to super-resolution and succeeded in producing highly discriminative super-resolution images. This new structure also enabled high quality category transformation based on parametric functional transformation of conditional batch normalization layers in the generator.",
+    "authors": [
+      "Takeru Miyato",
+      "Masanori Koyama"
+    ],
+    "dates": [
+      "2018-02-15",
+      "2018-08-15"
+    ],
+    "name": "Projection Discriminators",
+    "source": "ICLR 2018",
+    "title": "cGANs with Projection Discriminator",
+    "url": "https://arxiv.org/abs/1802.05637"
+  },
+  {
+    "abstract": "In this paper, we propose the Self-Attention Generative Adversarial Network (SAGAN) which allows attention-driven, long-range dependency modeling for image generation tasks. Traditional convolutional GANs generate high-resolution details as a function of only spatially local points in lower-resolution feature maps. In SAGAN, details can be generated using cues from all feature locations. Moreover, the discriminator can check that highly detailed features in distant portions of the image are consistent with each other. Furthermore, recent work has shown that generator conditioning affects GAN performance. Leveraging this insight, we apply spectral normalization to the GAN generator and find that this improves training dynamics. The proposed SAGAN achieves the state-of-the-art results, boosting the best published Inception score from 36.8 to 52.52 and reducing Frechet Inception distance from 27.62 to 18.65 on the challenging ImageNet dataset. Visualization of the attention layers shows that the generator leverages neighborhoods that correspond to object shapes rather than local regions of fixed shape.",
+    "authors": [
+      "Han Zhang",
+      "Ian Goodfellow",
+      "Dimitris Metaxas",
+      "Augustus Odena"
+    ],
+    "dates": [
+      "2018-05-21"
+    ],
+    "name": "SAGAN",
+    "source": "Arxiv",
+    "title": "Self-Attention Generative Adversarial Networks",
+    "url": "https://arxiv.org/abs/1805.08318"
+  },
+  {
+    "abstract": "We know SGAN may have a risk of gradient vanishing. A significant improvement is WGAN, with the help of 1-Lipschitz constraint on discriminator to prevent from gradient vanishing. Is there any GAN having no gradient vanishing and no 1-Lipschitz constraint on discriminator? We do find one, called GAN-QP. To construct a new framework of Generative Adversarial Network (GAN) usually includes three steps: 1. choose a probability divergence; 2. convert it into a dual form; 3. play a min-max game. In this articles, we demonstrate that the first step is not necessary. We can analyse the property of divergence and even construct new divergence in dual space directly. As a reward, we obtain a simpler alternative of WGAN: GAN-QP. We demonstrate that GAN-QP have a better performance than WGAN in theory and practice.",
+    "authors": [
+      "Jianlin Su"
+    ],
+    "dates": [
+      "2018-11-18",
+      "2018-12-15"
+    ],
+    "name": "GAN-QP",
+    "source": "Arxiv",
+    "title": "GAN-QP: A Novel GAN Framework without Gradient Vanishing and Lipschitz Constraint",
+    "url": "https://arxiv.org/abs/1811.07296"
   },
   {
     "abstract": "While humans easily recognize relations between data from different domains without any supervision, learning to automatically discover them is in general very challenging and needs many ground-truth pairs that illustrate the relations. To avoid costly pairing, we address the task of discovering cross-domain relations given unpaired data. We propose a method based on generative adversarial networks that learns to discover relations between different domains (DiscoGAN). Using the discovered relations, our proposed network successfully transfers style from one domain to another while preserving key attributes such as orientation and face identity. Source code for official implementation is publicly available this https URL",
@@ -1700,5 +1795,20 @@
     "source": "CVPRW 2017",
     "title": "Enhanced Deep Residual Networks for Single Image Super-Resolution",
     "url": "https://arxiv.org/abs/1707.02921"
+  },
+  {
+    "abstract": "Despite recent progress in generative image modeling, successfully generating high-resolution, diverse samples from complex datasets such as ImageNet remains an elusive goal. To this end, we train Generative Adversarial Networks at the largest scale yet attempted, and study the instabilities specific to such scale. We find that applying orthogonal regularization to the generator renders it amenable to a simple \"truncation trick\", allowing fine control over the trade-off between sample fidelity and variety by truncating the latent space. Our modifications lead to models which set the new state of the art in class-conditional image synthesis. When trained on ImageNet at 128x128 resolution, our models (BigGANs) achieve an Inception Score (IS) of 166.3 and Frechet Inception Distance (FID) of 9.6, improving over the previous best IS of 52.52 and FID of 18.65.",
+    "authors": [
+      "Andrew Brock",
+      "Jeff Donahue",
+      "Karen Simonyan"
+    ],
+    "dates": [
+      "2018-09-28"
+    ],
+    "name": "BigGAN",
+    "source": "ICLR 2019",
+    "title": "Large Scale GAN Training for High Fidelity Natural Image Synthesis",
+    "url": "https://arxiv.org/abs/1809.11096"
   }
 ]
