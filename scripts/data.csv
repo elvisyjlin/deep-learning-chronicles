@@ -41,6 +41,7 @@ fastText,ICLR 2017,https://arxiv.org/abs/1612.03651
 fastText,TACL 2017,https://arxiv.org/abs/1607.04606
 ACGAN,ICML 2017,https://arxiv.org/abs/1610.09585
 LSGAN,ICCV 2017,https://arxiv.org/abs/1611.04076
+LSGAN-GP,TPAMI 2018,https://arxiv.org/abs/1712.06391
 WGAN,Arxiv,https://arxiv.org/abs/1701.07875
 WGAN-GP,NIPS 2017,https://arxiv.org/abs/1704.00028
 Transformer,NIPS 2017,https://arxiv.org/abs/1706.03762
@@ -48,6 +49,11 @@ pix2pix,CVPR 2017,https://arxiv.org/abs/1611.07004
 Xception,CVPR 2017,https://arxiv.org/abs/1610.02357
 BEGAN,Arxiv,https://arxiv.org/abs/1703.10717
 DRAGAN,Arxiv,https://arxiv.org/abs/1705.07215
+f-GAN,NIPS 2016,https://arxiv.org/abs/1606.00709
+SNGAN,ICLR 2018,https://arxiv.org/abs/1802.05957
+Projection Discriminators,ICLR 2018,https://arxiv.org/abs/1802.05637
+SAGAN,Arxiv,https://arxiv.org/abs/1805.08318
+GAN-QP,Arxiv,https://arxiv.org/abs/1811.07296
 DiscoGAN,ICML 2017,https://arxiv.org/abs/1703.05192
 SqueezeNet,Arxiv,https://arxiv.org/abs/1602.07360
 CycleGAN,ICCV 2017,https://arxiv.org/abs/1703.10593
@@ -88,3 +94,20 @@ PReLU,ICCV 2015,https://arxiv.org/abs/1502.01852
 RReLU,Arxiv,https://arxiv.org/abs/1505.00853
 ELU,ICLR 2016,https://arxiv.org/abs/1511.07289
 SNN,NIPS 2017,https://arxiv.org/abs/1706.02515
+Universal Transformer,Arxiv,https://arxiv.org/abs/1807.03819
+ELMo,NAACL 2018,https://arxiv.org/abs/1802.05365
+ULMFiT,ACL 2018,https://arxiv.org/abs/1801.06146
+BERT,Arxiv,https://arxiv.org/abs/1810.04805
+SRCNN,ECCV 2014,https://arxiv.org/abs/1501.00092
+FSRCNN,ECCV 2016,https://arxiv.org/abs/1608.00367
+ESPCN,CVPR 2016,https://arxiv.org/abs/1609.05158
+VDSR,CVPR 2016,https://arxiv.org/abs/1511.04587
+DRCN,CVPR 2016,https://arxiv.org/abs/1511.04491
+RED,NIPS 2016,https://arxiv.org/abs/1606.08921
+DRRN,ACL 2016,https://arxiv.org/abs/1511.04636
+LapSRN,CVPR 2017,https://arxiv.org/abs/1704.03915
+SRDenseNet,ICCV 2017,https://ieeexplore.ieee.org/document/8237776/
+SRGAN,CVPR 2017,https://arxiv.org/abs/1609.04802
+SRResNet,CVPR 2017,https://arxiv.org/abs/1609.04802
+EDSR,CVPRW 2017,https://arxiv.org/abs/1707.02921
+BigGAN,ICLR 2019,https://arxiv.org/abs/1809.11096
