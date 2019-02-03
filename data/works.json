@@ -1810,5 +1810,52 @@
     "source": "ICLR 2019",
     "title": "Large Scale GAN Training for High Fidelity Natural Image Synthesis",
     "url": "https://arxiv.org/abs/1809.11096"
+  },
+  {
+    "abstract": "Adversarial training has been highly successful in the context of image super-resolution. It was demonstrated to yield realistic and highly detailed results. Despite this success, many state-of-the-art methods for video super-resolution still favor simpler norms such as $L_2$ over adversarial loss functions. This is caused by the fact that the averaging nature of direct vector norms as loss functions leads to temporal smoothness. The lack of spatial detail means temporal coherence is easily established. In our work, we instead propose an adversarial training for video super-resolution that leads to temporally coherent solutions without sacrificing spatial detail. In our generator, we use a recurrent, residual framework that naturally encourages temporal consistency. For adversarial training, we propose a novel spatio-temporal discriminator in combination with motion compensation to guarantee photo-realistic and temporally coherent details in the results. We additionally identify a class of temporal artifacts in these recurrent networks, and propose a novel Ping-Pong loss to remove them. Quantifying the temporal coherence for image super-resolution tasks has also not been addressed previously. We propose a first set of metrics to evaluate the accuracy as well as the perceptual quality of the temporal evolution, and we demonstrate that our method outperforms previous work by yielding realistic and detailed images with natural temporal changes.",
+    "authors": [
+      "Mengyu Chu",
+      "You Xie",
+      "Laura Leal-Taix\u00e9",
+      "Nils Thuerey"
+    ],
+    "dates": [
+      "2018-11-23"
+    ],
+    "name": "TecoGAN",
+    "source": "Arxiv",
+    "title": "Temporally Coherent GANs for Video Super-Resolution (TecoGAN)",
+    "url": "https://arxiv.org/abs/1811.09393"
+  },
+  {
+    "abstract": "Learning to store information over extended time intervals by recurrent backpropagation takes a very long time, mostly because of insufficient, decaying error backflow. We briefly review Hochreiter's (1991) analysis of this problem, then address it by introducing a novel, efficient, gradient based method called long short-term memory (LSTM). Truncating the gradient where this does not do harm, LSTM can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units. Multiplicative gate units learn to open and close access to the constant error flow. LSTM is local in space and time; its computational complexity per time step and weight is O. 1. Our experiments with artificial data involve local, distributed, real-valued, and noisy pattern representations. In comparisons with real-time recurrent learning, back propagation through time, recurrent cascade correlation, Elman nets, and neural sequence chunking, LSTM leads to many more successful runs, and learns much faster. LSTM also solves complex, artificial long-time-lag tasks that have never been solved by previous recurrent network algorithms.",
+    "authors": [
+      "Sepp Hochreiter",
+      "J\u00fcrgen Schmidhuber"
+    ],
+    "dates": [
+      "Long"
+    ],
+    "name": "LSTM",
+    "source": "Journal Neural Computation Volume 9 Issue 8",
+    "title": "Long Short-Term Memory",
+    "url": "https://dl.acm.org/citation.cfm?id=1246450"
+  },
+  {
+    "abstract": "Neural machine translation is a relatively new approach to statistical machine translation based purely on neural networks. The neural machine translation models often consist of an encoder and a decoder. The encoder extracts a fixed-length representation from a variable-length input sentence, and the decoder generates a correct translation from this representation. In this paper, we focus on analyzing the properties of the neural machine translation using two models; RNN Encoder--Decoder and a newly proposed gated recursive convolutional neural network. We show that the neural machine translation performs relatively well on short sentences without unknown words, but its performance degrades rapidly as the length of the sentence and the number of unknown words increase. Furthermore, we find that the proposed gated recursive convolutional network learns a grammatical structure of a sentence automatically.",
+    "authors": [
+      "Kyunghyun Cho",
+      "Bart van Merrienboer",
+      "Dzmitry Bahdanau",
+      "Yoshua Bengio"
+    ],
+    "dates": [
+      "2014-09-03",
+      "2014-10-07"
+    ],
+    "name": "GRU",
+    "source": "SSST-8",
+    "title": "On the Properties of Neural Machine Translation: Encoder-Decoder Approaches",
+    "url": "https://arxiv.org/abs/1409.1259"
   }
 ]
