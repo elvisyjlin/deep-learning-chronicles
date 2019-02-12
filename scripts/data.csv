@@ -111,3 +111,8 @@ SRGAN,CVPR 2017,https://arxiv.org/abs/1609.04802
 SRResNet,CVPR 2017,https://arxiv.org/abs/1609.04802
 EDSR,CVPRW 2017,https://arxiv.org/abs/1707.02921
 BigGAN,ICLR 2019,https://arxiv.org/abs/1809.11096
+TecoGAN,Arxiv,https://arxiv.org/abs/1811.09393
+GQN,DeepMind Tech Report,https://deepmind.com/blog/neural-scene-representation-and-rendering/
+LSTM,Journal Neural Computation Volume 9 Issue 8,https://dl.acm.org/citation.cfm?id=1246450
+GRU,SSST-8,https://arxiv.org/abs/1409.1259
+StyleGAN,Arxiv,https://arxiv.org/abs/1812.04948
