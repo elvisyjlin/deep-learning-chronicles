@@ -116,3 +116,6 @@ GQN,DeepMind Tech Report,https://deepmind.com/blog/neural-scene-representation-a
 LSTM,Journal Neural Computation Volume 9 Issue 8,https://dl.acm.org/citation.cfm?id=1246450
 GRU,SSST-8,https://arxiv.org/abs/1409.1259
 StyleGAN,Arxiv,https://arxiv.org/abs/1812.04948
+Layer Normalization,Arxiv,https://arxiv.org/abs/1607.06450
+Conditional Layer Normalization,ICLR 2017,https://arxiv.org/abs/1610.07629
+Adaptive Instance Normalization,ICCV 2017,https://arxiv.org/abs/1703.06868

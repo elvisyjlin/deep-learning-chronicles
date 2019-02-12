@@ -1873,5 +1873,51 @@
     "source": "Arxiv",
     "title": "A Style-Based Generator Architecture for Generative Adversarial Networks",
     "url": "https://arxiv.org/abs/1812.04948"
+  },
+  {
+    "abstract": "Training state-of-the-art, deep neural networks is computationally expensive. One way to reduce the training time is to normalize the activities of the neurons. A recently introduced technique called batch normalization uses the distribution of the summed input to a neuron over a mini-batch of training cases to compute a mean and variance which are then used to normalize the summed input to that neuron on each training case. This significantly reduces the training time in feed-forward neural networks. However, the effect of batch normalization is dependent on the mini-batch size and it is not obvious how to apply it to recurrent neural networks. In this paper, we transpose batch normalization into layer normalization by computing the mean and variance used for normalization from all of the summed inputs to the neurons in a layer on a single training case. Like batch normalization, we also give each neuron its own adaptive bias and gain which are applied after the normalization but before the non-linearity. Unlike batch normalization, layer normalization performs exactly the same computation at training and test times. It is also straightforward to apply to recurrent neural networks by computing the normalization statistics separately at each time step. Layer normalization is very effective at stabilizing the hidden state dynamics in recurrent networks. Empirically, we show that layer normalization can substantially reduce the training time compared with previously published techniques.",
+    "authors": [
+      "Jimmy Lei Ba",
+      "Jamie Ryan Kiros",
+      "Geoffrey E. Hinton"
+    ],
+    "dates": [
+      "2016-07-21"
+    ],
+    "name": "Layer Normalization",
+    "source": "Arxiv",
+    "title": "Layer Normalization",
+    "url": "https://arxiv.org/abs/1607.06450"
+  },
+  {
+    "abstract": "The diversity of painting styles represents a rich visual vocabulary for the construction of an image. The degree to which one may learn and parsimoniously capture this visual vocabulary measures our understanding of the higher level features of paintings, if not images in general. In this work we investigate the construction of a single, scalable deep network that can parsimoniously capture the artistic style of a diversity of paintings. We demonstrate that such a network generalizes across a diversity of artistic styles by reducing a painting to a point in an embedding space. Importantly, this model permits a user to explore new painting styles by arbitrarily combining the styles learned from individual paintings. We hope that this work provides a useful step towards building rich models of paintings and offers a window on to the structure of the learned representation of artistic style.",
+    "authors": [
+      "Vincent Dumoulin",
+      "Jonathon Shlens",
+      "Manjunath Kudlur"
+    ],
+    "dates": [
+      "2016-10-24",
+      "2017-02-09"
+    ],
+    "name": "Conditional Layer Normalization",
+    "source": "ICLR 2017",
+    "title": "A Learned Representation For Artistic Style",
+    "url": "https://arxiv.org/abs/1610.07629"
+  },
+  {
+    "abstract": "Gatys et al. recently introduced a neural algorithm that renders a content image in the style of another image, achieving so-called style transfer. However, their framework requires a slow iterative optimization process, which limits its practical application. Fast approximations with feed-forward neural networks have been proposed to speed up neural style transfer. Unfortunately, the speed improvement comes at a cost: the network is usually tied to a fixed set of styles and cannot adapt to arbitrary new styles. In this paper, we present a simple yet effective approach that for the first time enables arbitrary style transfer in real-time. At the heart of our method is a novel adaptive instance normalization (AdaIN) layer that aligns the mean and variance of the content features with those of the style features. Our method achieves speed comparable to the fastest existing approach, without the restriction to a pre-defined set of styles. In addition, our approach allows flexible user controls such as content-style trade-off, style interpolation, color & spatial controls, all using a single feed-forward neural network.",
+    "authors": [
+      "Xun Huang",
+      "Serge Belongie"
+    ],
+    "dates": [
+      "2017-03-20",
+      "2017-07-30"
+    ],
+    "name": "Adaptive Instance Normalization",
+    "source": "ICCV 2017",
+    "title": "Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization",
+    "url": "https://arxiv.org/abs/1703.06868"
   }
 ]
