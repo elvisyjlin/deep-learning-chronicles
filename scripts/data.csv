@@ -119,3 +119,7 @@ StyleGAN,Arxiv,https://arxiv.org/abs/1812.04948
 Layer Normalization,Arxiv,https://arxiv.org/abs/1607.06450
 Conditional Layer Normalization,ICLR 2017,https://arxiv.org/abs/1610.07629
 Adaptive Instance Normalization,ICCV 2017,https://arxiv.org/abs/1703.06868
+Progressive GAN,ICLR 2018,https://arxiv.org/abs/1710.10196
+SC-FEGAN,Arxiv,https://arxiv.org/abs/1902.06838
+BagNet,ICLR 2019,https://openreview.net/forum?id=SkfMWhAqYQ
+Lingvo,Arxiv,https://arxiv.org/abs/1902.08295
