@@ -2053,5 +2053,146 @@
     "source": "Arxiv",
     "title": "Lingvo: a Modular and Scalable Framework for Sequence-to-Sequence Modeling",
     "url": "https://arxiv.org/abs/1902.08295"
+  },
+  {
+    "abstract": "In this paper we illustrate how to perform both visual object tracking and semi-supervised video object segmentation, in real-time, with a single simple approach. Our method, dubbed SiamMask, improves the offline training procedure of popular fully-convolutional Siamese approaches for object tracking by augmenting their loss with a binary segmentation task. Once trained, SiamMask solely relies on a single bounding box initialisation and operates online, producing class-agnostic object segmentation masks and rotated bounding boxes at 35 frames per second. Despite its simplicity, versatility and fast speed, our strategy allows us to establish a new state-of-the-art among real-time trackers on VOT-2018, while at the same time demonstrating competitive performance and the best speed for the semi-supervised video object segmentation task on DAVIS-2016 and DAVIS-2017. The project website is this http URL.",
+    "authors": [
+      "Qiang Wang",
+      "Li Zhang",
+      "Luca Bertinetto",
+      "Weiming Hu",
+      "Philip H.S. Torr"
+    ],
+    "dates": [
+      "2018-12-12"
+    ],
+    "name": "SiamMask",
+    "source": "CVPR 2019",
+    "title": "Fast Online Object Tracking and Segmentation: A Unifying Approach",
+    "url": "https://arxiv.org/abs/1812.05050"
+  },
+  {
+    "abstract": "Vision-language navigation (VLN) is the task of navigating an embodied agent to carry out natural language instructions inside real 3D environments. In this paper, we study how to address three critical challenges for this task: the cross-modal grounding, the ill-posed feedback, and the generalization problems. First, we propose a novel Reinforced Cross-Modal Matching (RCM) approach that enforces cross-modal grounding both locally and globally via reinforcement learning (RL). Particularly, a matching critic is used to provide an intrinsic reward to encourage global matching between instructions and trajectories, and a reasoning navigator is employed to perform cross-modal grounding in the local visual scene. Evaluation on a VLN benchmark dataset shows that our RCM model significantly outperforms existing methods by 10% on SPL and achieves the new state-of-the-art performance. To improve the generalizability of the learned policy, we further introduce a Self-Supervised Imitation Learning (SIL) method to explore unseen environments by imitating its own past, good decisions. We demonstrate that SIL can approximate a better and more efficient policy, which tremendously minimizes the success rate performance gap between seen and unseen environments (from 30.7% to 11.7%).",
+    "authors": [
+      "Xin Wang",
+      "Qiuyuan Huang",
+      "Asli Celikyilmaz",
+      "Jianfeng Gao",
+      "Dinghan Shen",
+      "Yuan-Fang Wang",
+      "William Yang Wang",
+      "Lei Zhang"
+    ],
+    "dates": [
+      "2018-11-25"
+    ],
+    "name": "Reinforced Cross-Modal Matching",
+    "source": "CVPR 2019",
+    "title": "Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation",
+    "url": "https://arxiv.org/abs/1811.10092"
+  },
+  {
+    "abstract": "Letting a deep network be aware of the quality of its own predictions is an interesting yet important problem. In the task of instance segmentation, the confidence of instance classification is used as mask quality score in most instance segmentation frameworks. However, the mask quality, quantified as the IoU between the instance mask and its ground truth, is usually not well correlated with classification score. In this paper, we study this problem and propose Mask Scoring R-CNN which contains a network block to learn the quality of the predicted instance masks. The proposed network block takes the instance feature and the corresponding predicted mask together to regress the mask IoU. The mask scoring strategy calibrates the misalignment between mask quality and mask score, and improves instance segmentation performance by prioritizing more accurate mask predictions during COCO AP evaluation. By extensive evaluations on the COCO dataset, Mask Scoring R-CNN brings consistent and noticeable gain with different models, and outperforms the state-of-the-art Mask R-CNN. We hope our simple and effective approach will provide a new direction for improving instance segmentation. The source code of our method is available at \\url{this https URL}.",
+    "authors": [
+      "Zhaojin Huang",
+      "Lichao Huang",
+      "Yongchao Gong",
+      "Chang Huang",
+      "Xinggang Wang"
+    ],
+    "dates": [
+      "2019-03-01"
+    ],
+    "name": "Mask Scoring R-CNN",
+    "source": "CVPR 2019",
+    "title": "Mask Scoring R-CNN",
+    "url": "https://arxiv.org/abs/1903.00241"
+  },
+  {
+    "abstract": "Conditional GANs are at the forefront of natural image synthesis. The main drawback of such models is the necessity for labelled data. In this work we exploit two popular unsupervised learning techniques, adversarial training and self-supervision, to close the gap between conditional and unconditional GANs. In particular, we allow the networks to collaborate on the task of representation learning, while being adversarial with respect to the classic GAN game. The role of self-supervision is to encourage the discriminator to learn meaningful feature representations which are not forgotten during training. We test empirically both the quality of the learned image representations, and the quality of the synthesized images. Under the same conditions, the self-supervised GAN attains a similar performance to state-of-the-art conditional counterparts. Finally, we show that this approach to fully unsupervised learning can be scaled to attain an FID of 33 on unconditional ImageNet generation.",
+    "authors": [
+      "Ting Chen",
+      "Xiaohua Zhai",
+      "Marvin Ritter",
+      "Mario Lucic",
+      "Neil Houlsby"
+    ],
+    "dates": [
+      "2018-11-27"
+    ],
+    "name": "Self-Supervised GAN",
+    "source": "Arxiv",
+    "title": "Self-Supervised Generative Adversarial Networks",
+    "url": "https://arxiv.org/abs/1811.11212"
+  },
+  {
+    "abstract": "Recent research on super-resolution has achieved great success due to the development of deep convolutional neural networks (DCNNs). However, super-resolution of arbitrary scale factor has been ignored for a long time. Most previous researchers regard super-resolution of different scale factors as independent tasks. They train a specific model for each scale factor which is inefficient in computing, and prior work only take the super-resolution of several integer scale factors into consideration. In this work, we propose a novel method called Meta-SR to firstly solve super-resolution of arbitrary scale factor (including non-integer scale factors) with a single model. In our Meta-SR, the Meta-Upscale Module is proposed to replace the traditional upscale module. For arbitrary scale factor, the Meta-Upscale Module dynamically predicts the weights of the upscale filters by taking the scale factor as input and use these weights to generate the HR image of arbitrary size. For any low-resolution image, our Meta-SR can continuously zoom in it with arbitrary scale factor by only using a single model. We evaluated the proposed method through extensive experiments on widely used benchmark datasets on single image super-resolution. The experimental results show the superiority of our Meta-Upscale.",
+    "authors": [
+      "Xuecai Hu",
+      "Haoyuan Mu",
+      "Xiangyu Zhang",
+      "Zilei Wang",
+      "Jian Sun",
+      "Tieniu Tan"
+    ],
+    "dates": [
+      "2019-03-03"
+    ],
+    "name": "Meta-SR",
+    "source": "CVPR 2019",
+    "title": "Meta-SR: A Magnification-Arbitrary Network for Super-Resolution",
+    "url": "https://arxiv.org/abs/1903.00875"
+  },
+  {
+    "abstract": "Graphics Interchange Format (GIF) is a highly portable graphics format that is ubiquitous on the Internet. Despite their small sizes, GIF images often contain undesirable visual artifacts such as flat color regions, false contours, color shift, and dotted patterns. In this paper, we propose GIF2Video, the first learning-based method for enhancing the visual quality of GIFs in the wild. We focus on the challenging task of GIF restoration by recovering information lost in the three steps of GIF creation: frame sampling, color quantization, and color dithering. We first propose a novel CNN architecture for color dequantization. It is built upon a compositional architecture for multi-step color correction, with a comprehensive loss function designed to handle large quantization errors. We then adapt the SuperSlomo network for temporal interpolation of GIF frames. We introduce two large datasets, namely GIF-Faces and GIF-Moments, for both training and evaluation. Experimental results show that our method can significantly improve the visual quality of GIFs, and outperforms direct baseline and state-of-the-art approaches.",
+    "authors": [
+      "Yang Wang",
+      "Haibin Huang",
+      "Chuan Wang",
+      "Tong He",
+      "Jue Wang",
+      "Minh Hoai"
+    ],
+    "dates": [
+      "2019-01-09"
+    ],
+    "name": "GIF2Video",
+    "source": "CVPR 2019",
+    "title": "GIF2Video: Color Dequantization and Temporal Interpolation of GIF images",
+    "url": "https://arxiv.org/abs/1901.02840"
+  },
+  {
+    "abstract": "Surface-based geodesic topology provides strong cues for object semantic analysis and geometric modeling. However, such connectivity information is lost in point clouds. Thus we introduce GeoNet, the first deep learning architecture trained to model the intrinsic structure of surfaces represented as point clouds. To demonstrate the applicability of learned geodesic-aware representations, we propose fusion schemes which use GeoNet in conjunction with other baseline or backbone networks, such as PU-Net and PointNet++, for down-stream point cloud analysis. Our method improves the state-of-the-art on multiple representative tasks that can benefit from understandings of the underlying surface topology, including point upsampling, normal estimation, mesh reconstruction and non-rigid shape classification.",
+    "authors": [
+      "Tong He",
+      "Haibin Huang",
+      "Li Yi",
+      "Yuqian Zhou",
+      "Chihao Wu",
+      "Jue Wang",
+      "Stefano Soatto"
+    ],
+    "dates": [
+      "2019-01-03"
+    ],
+    "name": "GeoNet",
+    "source": "CVPR 2019",
+    "title": "GeoNet: Deep Geodesic Networks for Point Cloud Analysis",
+    "url": "https://arxiv.org/abs/1901.00680"
+  },
+  {
+    "abstract": "The encoder-decoder framework is state-of-the-art for offline semantic image segmentation. Since the rise in autonomous systems, real-time computation is increasingly desirable. In this paper, we introduce fast segmentation convolutional neural network (Fast-SCNN), an above real-time semantic segmentation model on high resolution image data (1024x2048px) suited to efficient computation on embedded devices with low memory. Building on existing two-branch methods for fast segmentation, we introduce our `learning to downsample' module which computes low-level features for multiple resolution branches simultaneously. Our network combines spatial detail at high resolution with deep features extracted at lower resolution, yielding an accuracy of 68.0% mean intersection over union at 123.5 frames per second on Cityscapes. We also show that large scale pre-training is unnecessary. We thoroughly validate our metric in experiments with ImageNet pre-training and the coarse labeled data of Cityscapes. Finally, we show even faster computation with competitive results on subsampled inputs, without any network modifications.",
+    "authors": [
+      "Rudra P K Poudel",
+      "Stephan Liwicki",
+      "Roberto Cipolla"
+    ],
+    "dates": [
+      "2019-02-12"
+    ],
+    "name": "Fast-SCNN",
+    "source": "Arxiv",
+    "title": "Fast-SCNN: Fast Semantic Segmentation Network",
+    "url": "https://arxiv.org/abs/1902.04502"
   }
 ]
