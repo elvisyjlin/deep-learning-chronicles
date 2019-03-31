@@ -136,3 +136,6 @@ pix2pixHD,CVPR 2018,https://arxiv.org/abs/1711.11585
 SPADE,CVPR 2019,https://arxiv.org/abs/1903.07291
 TET-GAN,AAAI 2019,https://arxiv.org/abs/1812.06384
 PI-REC,Arxiv,https://arxiv.org/abs/1903.10146
+Scribbler,CVPR 2017,https://arxiv.org/abs/1612.00835
+SketchyGAN,CVPR 2018,https://arxiv.org/abs/1801.02753
+BicycleGAN,NIPS 2017,https://arxiv.org/abs/1711.11586
