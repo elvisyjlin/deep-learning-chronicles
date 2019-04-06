@@ -2314,5 +2314,77 @@
     "source": "NIPS 2017",
     "title": "Toward Multimodal Image-to-Image Translation",
     "url": "https://arxiv.org/abs/1711.11586"
+  },
+  {
+    "abstract": "This paper presents a simple method for \"do as I do\" motion transfer: given a source video of a person dancing we can transfer that performance to a novel (amateur) target after only a few minutes of the target subject performing standard moves. We pose this problem as a per-frame image-to-image translation with spatio-temporal smoothing. Using pose detections as an intermediate representation between source and target, we learn a mapping from pose images to a target subject's appearance. We adapt this setup for temporally coherent video generation including realistic face synthesis. Our video demo can be found at this https URL .",
+    "authors": [
+      "Caroline Chan",
+      "Shiry Ginosar",
+      "Tinghui Zhou",
+      "Alexei A. Efros"
+    ],
+    "dates": [
+      "2018-08-22"
+    ],
+    "name": "Everybody Dance Now",
+    "source": "Arxiv",
+    "title": "Everybody Dance Now",
+    "url": "https://arxiv.org/abs/1808.07371"
+  },
+  {
+    "abstract": "Recent deep learning based approaches have shown promising results for the challenging task of inpainting large missing regions in an image. These methods can generate visually plausible image structures and textures, but often create distorted structures or blurry textures inconsistent with surrounding areas. This is mainly due to ineffectiveness of convolutional neural networks in explicitly borrowing or copying information from distant spatial locations. On the other hand, traditional texture and patch synthesis approaches are particularly suitable when it needs to borrow textures from the surrounding regions. Motivated by these observations, we propose a new deep generative model-based approach which can not only synthesize novel image structures but also explicitly utilize surrounding image features as references during network training to make better predictions. The model is a feed-forward, fully convolutional neural network which can process images with multiple holes at arbitrary locations and with variable sizes during the test time. Experiments on multiple datasets including faces (CelebA, CelebA-HQ), textures (DTD) and natural images (ImageNet, Places2) demonstrate that our proposed approach generates higher-quality inpainting results than existing ones. Code, demo and models are available at: this https URL.",
+    "authors": [
+      "Jiahui Yu",
+      "Zhe Lin",
+      "Jimei Yang",
+      "Xiaohui Shen",
+      "Xin Lu",
+      "Thomas S. Huang"
+    ],
+    "dates": [
+      "2018-01-24",
+      "2018-03-21"
+    ],
+    "name": "Generative Image Inpainting with Contextual Attention",
+    "source": "CVPR 2018",
+    "title": "Generative Image Inpainting with Contextual Attention",
+    "url": "https://arxiv.org/abs/1801.07892"
+  },
+  {
+    "abstract": "In this paper we address the problem of generating person images conditioned on a given pose. Specifically, given an image of a person and a target pose, we synthesize a new image of that person in the novel pose. In order to deal with pixel-to-pixel misalignments caused by the pose differences, we introduce deformable skip connections in the generator of our Generative Adversarial Network. Moreover, a nearest-neighbour loss is proposed instead of the common L1 and L2 losses in order to match the details of the generated image with the target image. We test our approach using photos of persons in different poses and we compare our method with previous work in this area showing state-of-the-art results in two benchmarks. Our method can be applied to the wider field of deformable object generation, provided that the pose of the articulated object can be extracted using a keypoint detector.",
+    "authors": [
+      "Aliaksandr Siarohin",
+      "Enver Sangineto",
+      "Stephane Lathuiliere",
+      "Nicu Sebe"
+    ],
+    "dates": [
+      "2017-12-29",
+      "2018-04-06"
+    ],
+    "name": "PoseGAN",
+    "source": "CVPR 2018",
+    "title": "Deformable GANs for Pose-based Human Image Generation",
+    "url": "https://arxiv.org/abs/1801.00055"
+  },
+  {
+    "abstract": "Graph embedding methods produce unsupervised node features from graphs that can then be used for a variety of machine learning tasks. Modern graphs, particularly in industrial applications, contain billions of nodes and trillions of edges, which exceeds the capability of existing embedding systems. We present PyTorch-BigGraph (PBG), an embedding system that incorporates several modifications to traditional multi-relation embedding systems that allow it to scale to graphs with billions of nodes and trillions of edges. PBG uses graph partitioning to train arbitrarily large embeddings on either a single machine or in a distributed environment. We demonstrate comparable performance with existing embedding systems on common benchmarks, while allowing for scaling to arbitrarily large graphs and parallelization on multiple machines. We train and evaluate embeddings on several large social network graphs as well as the full Freebase dataset, which contains over 100 million nodes and 2 billion edges.",
+    "authors": [
+      "Adam Lerer",
+      "Ledell Wu",
+      "Jiajun Shen",
+      "Timothee Lacroix",
+      "Luca Wehrstedt",
+      "Abhijit Bose",
+      "Alex Peysakhovich"
+    ],
+    "dates": [
+      "2019-03-28",
+      "2019-04-01"
+    ],
+    "name": "PyTorch-BigGraph",
+    "source": "Arxiv",
+    "title": "PyTorch-BigGraph: A Large-scale Graph Embedding System",
+    "url": "https://arxiv.org/abs/1903.12287"
   }
 ]
