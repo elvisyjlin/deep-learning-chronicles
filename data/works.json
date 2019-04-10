@@ -2386,5 +2386,72 @@
     "source": "Arxiv",
     "title": "PyTorch-BigGraph: A Large-scale Graph Embedding System",
     "url": "https://arxiv.org/abs/1903.12287"
+  },
+  {
+    "abstract": "We present a conceptually simple, flexible, and general framework for object instance segmentation. Our approach efficiently detects objects in an image while simultaneously generating a high-quality segmentation mask for each instance. The method, called Mask R-CNN, extends Faster R-CNN by adding a branch for predicting an object mask in parallel with the existing branch for bounding box recognition. Mask R-CNN is simple to train and adds only a small overhead to Faster R-CNN, running at 5 fps. Moreover, Mask R-CNN is easy to generalize to other tasks, e.g., allowing us to estimate human poses in the same framework. We show top results in all three tracks of the COCO suite of challenges, including instance segmentation, bounding-box object detection, and person keypoint detection. Without bells and whistles, Mask R-CNN outperforms all existing, single-model entries on every task, including the COCO 2016 challenge winners. We hope our simple and effective approach will serve as a solid baseline and help ease future research in instance-level recognition. Code has been made available at: this https URL",
+    "authors": [
+      "Kaiming He",
+      "Georgia Gkioxari",
+      "Piotr Doll\u00e1r",
+      "Ross Girshick"
+    ],
+    "dates": [
+      "2017-03-20",
+      "2018-01-24"
+    ],
+    "name": "Mask R-CNN",
+    "source": "ICCV 2017",
+    "title": "Mask R-CNN",
+    "url": "https://arxiv.org/abs/1703.06870"
+  },
+  {
+    "abstract": "Unsupervised image-to-image translation aims at learning a joint distribution of images in different domains by using images from the marginal distributions in individual domains. Since there exists an infinite set of joint distributions that can arrive the given marginal distributions, one could infer nothing about the joint distribution from the marginal distributions without additional assumptions. To address the problem, we make a shared-latent space assumption and propose an unsupervised image-to-image translation framework based on Coupled GANs. We compare the proposed framework with competing approaches and present high quality image translation results on various challenging unsupervised image translation tasks, including street scene image translation, animal image translation, and face image translation. We also apply the proposed framework to domain adaptation and achieve state-of-the-art performance on benchmark datasets. Code and additional results are available in this https URL .",
+    "authors": [
+      "Ming-Yu Liu",
+      "Thomas Breuel",
+      "Jan Kautz"
+    ],
+    "dates": [
+      "2017-03-02",
+      "2018-07-23"
+    ],
+    "name": "UNIT",
+    "source": "NIPS 2017",
+    "title": "Unsupervised Image-to-Image Translation Networks",
+    "url": "https://arxiv.org/abs/1703.00848"
+  },
+  {
+    "abstract": "Unsupervised image-to-image translation is an important and challenging problem in computer vision. Given an image in the source domain, the goal is to learn the conditional distribution of corresponding images in the target domain, without seeing any pairs of corresponding images. While this conditional distribution is inherently multimodal, existing approaches make an overly simplified assumption, modeling it as a deterministic one-to-one mapping. As a result, they fail to generate diverse outputs from a given source domain image. To address this limitation, we propose a Multimodal Unsupervised Image-to-image Translation (MUNIT) framework. We assume that the image representation can be decomposed into a content code that is domain-invariant, and a style code that captures domain-specific properties. To translate an image to another domain, we recombine its content code with a random style code sampled from the style space of the target domain. We analyze the proposed framework and establish several theoretical results. Extensive experiments with comparisons to the state-of-the-art approaches further demonstrates the advantage of the proposed framework. Moreover, our framework allows users to control the style of translation outputs by providing an example style image. Code and pretrained models are available at this https URL",
+    "authors": [
+      "Xun Huang",
+      "Ming-Yu Liu",
+      "Serge Belongie",
+      "Jan Kautz"
+    ],
+    "dates": [
+      "2018-04-12",
+      "2018-08-14"
+    ],
+    "name": "MUNIT",
+    "source": "ECCV 2018",
+    "title": "Multimodal Unsupervised Image-to-Image Translation",
+    "url": "https://arxiv.org/abs/1804.04732"
+  },
+  {
+    "abstract": "Image-to-image translation aims to learn the mapping between two visual domains. There are two main challenges for many applications: 1) the lack of aligned training pairs and 2) multiple possible outputs from a single input image. In this work, we present an approach based on disentangled representation for producing diverse outputs without paired training images. To achieve diversity, we propose to embed images onto two spaces: a domain-invariant content space capturing shared information across domains and a domain-specific attribute space. Our model takes the encoded content features extracted from a given input and the attribute vectors sampled from the attribute space to produce diverse outputs at test time. To handle unpaired training data, we introduce a novel cross-cycle consistency loss based on disentangled representations. Qualitative results show that our model can generate diverse and realistic images on a wide range of tasks without paired training data. For quantitative comparisons, we measure realism with user study and diversity with a perceptual distance metric. We apply the proposed model to domain adaptation and show competitive performance when compared to the state-of-the-art on the MNIST-M and the LineMod datasets.",
+    "authors": [
+      "Hsin-Ying Lee",
+      "Hung-Yu Tseng",
+      "Jia-Bin Huang",
+      "Maneesh Kumar Singh",
+      "Ming-Hsuan Yang"
+    ],
+    "dates": [
+      "2018-08-02"
+    ],
+    "name": "DRIT",
+    "source": "ECCV 2018",
+    "title": "Diverse Image-to-Image Translation via Disentangled Representations",
+    "url": "https://arxiv.org/abs/1808.00948"
   }
 ]
