@@ -2453,5 +2453,71 @@
     "source": "ECCV 2018",
     "title": "Diverse Image-to-Image Translation via Disentangled Representations",
     "url": "https://arxiv.org/abs/1808.00948"
+  },
+  {
+    "abstract": "We propose an approach for semi-automatic annotation of object instances. While most current methods treat object segmentation as a pixel-labeling problem, we here cast it as a polygon prediction task, mimicking how most current datasets have been annotated. In particular, our approach takes as input an image crop and sequentially produces vertices of the polygon outlining the object. This allows a human annotator to interfere at any time and correct a vertex if needed, producing as accurate segmentation as desired by the annotator. We show that our approach speeds up the annotation process by a factor of 4.7 across all classes in Cityscapes, while achieving 78.4% agreement in IoU with original ground-truth, matching the typical agreement between human annotators. For cars, our speed-up factor is 7.3 for an agreement of 82.2%. We further show generalization capabilities of our approach to unseen datasets.",
+    "authors": [
+      "Lluis Castrejon",
+      "Kaustav Kundu",
+      "Raquel Urtasun",
+      "Sanja Fidler"
+    ],
+    "dates": [
+      "2017-04-18"
+    ],
+    "name": "PolygonRNN",
+    "source": "CVPR 2017",
+    "title": "Annotating Object Instances with a Polygon-RNN",
+    "url": "https://arxiv.org/abs/1704.05548"
+  },
+  {
+    "abstract": "Manually labeling datasets with object masks is extremely time consuming. In this work, we follow the idea of Polygon-RNN to produce polygonal annotations of objects interactively using humans-in-the-loop. We introduce several important improvements to the model: 1) we design a new CNN encoder architecture, 2) show how to effectively train the model with Reinforcement Learning, and 3) significantly increase the output resolution using a Graph Neural Network, allowing the model to accurately annotate high-resolution objects in images. Extensive evaluation on the Cityscapes dataset shows that our model, which we refer to as Polygon-RNN++, significantly outperforms the original model in both automatic (10% absolute and 16% relative improvement in mean IoU) and interactive modes (requiring 50% fewer clicks by annotators). We further analyze the cross-domain scenario in which our model is trained on one dataset, and used out of the box on datasets from varying domains. The results show that Polygon-RNN++ exhibits powerful generalization capabilities, achieving significant improvements over existing pixel-wise methods. Using simple online fine-tuning we further achieve a high reduction in annotation time for new datasets, moving a step closer towards an interactive annotation tool to be used in practice.",
+    "authors": [
+      "David Acuna",
+      "Huan Ling",
+      "Amlan Kar",
+      "Sanja Fidler"
+    ],
+    "dates": [
+      "2018-03-26"
+    ],
+    "name": "PolygonRNN++",
+    "source": "CVPR 2018",
+    "title": "Efficient Interactive Annotation of Segmentation Datasets with Polygon-RNN++",
+    "url": "https://arxiv.org/abs/1803.09693"
+  },
+  {
+    "abstract": "Manually labeling objects by tracing their boundaries is a laborious process. In Polygon-RNN++ the authors proposed Polygon-RNN that produces polygonal annotations in a recurrent manner using a CNN-RNN architecture, allowing interactive correction via humans-in-the-loop. We propose a new framework that alleviates the sequential nature of Polygon-RNN, by predicting all vertices simultaneously using a Graph Convolutional Network (GCN). Our model is trained end-to-end. It supports object annotation by either polygons or splines, facilitating labeling efficiency for both line-based and curved objects. We show that Curve-GCN outperforms all existing approaches in automatic mode, including the powerful PSP-DeepLab and is significantly more efficient in interactive mode than Polygon-RNN++. Our model runs at 29.3ms in automatic, and 2.6ms in interactive mode, making it 10x and 100x faster than Polygon-RNN++.",
+    "authors": [
+      "Huan Ling",
+      "Jun Gao",
+      "Amlan Kar",
+      "Wenzheng Chen",
+      "Sanja Fidler"
+    ],
+    "dates": [
+      "2019-03-16"
+    ],
+    "name": "Curve-GCN",
+    "source": "CVPR 2019",
+    "title": "Fast Interactive Object Annotation with Curve-GCN",
+    "url": "https://arxiv.org/abs/1903.06874"
+  },
+  {
+    "abstract": "Neural networks for image recognition have evolved through extensive manual design from simple chain-like models to structures with multiple wiring paths. The success of ResNets and DenseNets is due in large part to their innovative wiring plans. Now, neural architecture search (NAS) studies are exploring the joint optimization of wiring and operation types, however, the space of possible wirings is constrained and still driven by manual design despite being searched. In this paper, we explore a more diverse set of connectivity patterns through the lens of randomly wired neural networks. To do this, we first define the concept of a stochastic network generator that encapsulates the entire network generation process. Encapsulation provides a unified view of NAS and randomly wired networks. Then, we use three classical random graph models to generate randomly wired graphs for networks. The results are surprising: several variants of these random generators yield network instances that have competitive accuracy on the ImageNet benchmark. These results suggest that new efforts focusing on designing better network generators may lead to new breakthroughs by exploring less constrained search spaces with more room for novel design.",
+    "authors": [
+      "Saining Xie",
+      "Alexander Kirillov",
+      "Ross Girshick",
+      "Kaiming He"
+    ],
+    "dates": [
+      "2019-04-02",
+      "2019-04-08"
+    ],
+    "name": "RandWireNN",
+    "source": "Arxiv",
+    "title": "Exploring Randomly Wired Neural Networks for Image Recognition",
+    "url": "https://arxiv.org/abs/1904.01569"
   }
 ]

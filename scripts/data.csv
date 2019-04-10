@@ -147,3 +147,7 @@ Mask R-CNN,ICCV 2017,https://arxiv.org/abs/1703.06870
 UNIT,NIPS 2017,https://arxiv.org/abs/1703.00848
 MUNIT,ECCV 2018,https://arxiv.org/abs/1804.04732
 DRIT,ECCV 2018,https://arxiv.org/abs/1808.00948
+PolygonRNN,CVPR 2017,https://arxiv.org/abs/1704.05548
+PolygonRNN++,CVPR 2018,https://arxiv.org/abs/1803.09693
+Curve-GCN,CVPR 2019,https://arxiv.org/abs/1903.06874
+RandWireNN,Arxiv,https://arxiv.org/abs/1904.01569
