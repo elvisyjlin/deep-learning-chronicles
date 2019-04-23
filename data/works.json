@@ -2519,5 +2519,72 @@
     "source": "Arxiv",
     "title": "Exploring Randomly Wired Neural Networks for Image Recognition",
     "url": "https://arxiv.org/abs/1904.01569"
+  },
+  {
+    "abstract": "Scene parsing is challenging for unrestricted open vocabulary and diverse scenes. In this paper, we exploit the capability of global context information by different-region-based context aggregation through our pyramid pooling module together with the proposed pyramid scene parsing network (PSPNet). Our global prior representation is effective to produce good quality results on the scene parsing task, while PSPNet provides a superior framework for pixel-level prediction tasks. The proposed approach achieves state-of-the-art performance on various datasets. It came first in ImageNet scene parsing challenge 2016, PASCAL VOC 2012 benchmark and Cityscapes benchmark. A single PSPNet yields new record of mIoU accuracy 85.4% on PASCAL VOC 2012 and accuracy 80.2% on Cityscapes.",
+    "authors": [
+      "Hengshuang Zhao",
+      "Jianping Shi",
+      "Xiaojuan Qi",
+      "Xiaogang Wang",
+      "Jiaya Jia"
+    ],
+    "dates": [
+      "2016-12-04",
+      "2017-04-27"
+    ],
+    "name": "PSPNet",
+    "source": "CVPR 2017",
+    "title": "Pyramid Scene Parsing Network",
+    "url": "https://arxiv.org/abs/1612.01105"
+  },
+  {
+    "abstract": "In this work, we establish dense correspondences between RGB image and a surface-based representation of the human body, a task we refer to as dense human pose estimation. We first gather dense correspondences for 50K persons appearing in the COCO dataset by introducing an efficient annotation pipeline. We then use our dataset to train CNN-based systems that deliver dense correspondence 'in the wild', namely in the presence of background, occlusions and scale variations. We improve our training set's effectiveness by training an 'inpainting' network that can fill in missing groundtruth values and report clear improvements with respect to the best results that would be achievable in the past. We experiment with fully-convolutional networks and region-based models and observe a superiority of the latter; we further improve accuracy through cascading, obtaining a system that delivers highly0accurate results in real time. Supplementary materials and videos are provided on the project page this http URL",
+    "authors": [
+      "R\u0131za Alp G\u00fcler",
+      "Natalia Neverova",
+      "Iasonas Kokkinos"
+    ],
+    "dates": [
+      "2018-02-01"
+    ],
+    "name": "DensePose",
+    "source": "CVPR 2018",
+    "title": "DensePose: Dense Human Pose Estimation In The Wild",
+    "url": "https://arxiv.org/abs/1802.00434"
+  },
+  {
+    "abstract": "We present region-based, fully convolutional networks for accurate and efficient object detection. In contrast to previous region-based detectors such as Fast/Faster R-CNN that apply a costly per-region subnetwork hundreds of times, our region-based detector is fully convolutional with almost all computation shared on the entire image. To achieve this goal, we propose position-sensitive score maps to address a dilemma between translation-invariance in image classification and translation-variance in object detection. Our method can thus naturally adopt fully convolutional image classifier backbones, such as the latest Residual Networks (ResNets), for object detection. We show competitive results on the PASCAL VOC datasets (e.g., 83.6% mAP on the 2007 set) with the 101-layer ResNet. Meanwhile, our result is achieved at a test-time speed of 170ms per image, 2.5-20x faster than the Faster R-CNN counterpart. Code is made publicly available at: this https URL",
+    "authors": [
+      "Jifeng Dai",
+      "Yi Li",
+      "Kaiming He",
+      "Jian Sun"
+    ],
+    "dates": [
+      "2016-05-20",
+      "2016-06-21"
+    ],
+    "name": "R-FCN",
+    "source": "Arxiv",
+    "title": "R-FCN: Object Detection via Region-based Fully Convolutional Networks",
+    "url": "https://arxiv.org/abs/1605.06409"
+  },
+  {
+    "abstract": "Both convolutional and recurrent operations are building blocks that process one local neighborhood at a time. In this paper, we present non-local operations as a generic family of building blocks for capturing long-range dependencies. Inspired by the classical non-local means method in computer vision, our non-local operation computes the response at a position as a weighted sum of the features at all positions. This building block can be plugged into many computer vision architectures. On the task of video classification, even without any bells and whistles, our non-local models can compete or outperform current competition winners on both Kinetics and Charades datasets. In static image recognition, our non-local models improve object detection/segmentation and pose estimation on the COCO suite of tasks. Code is available at this https URL .",
+    "authors": [
+      "Xiaolong Wang",
+      "Ross Girshick",
+      "Abhinav Gupta",
+      "Kaiming He"
+    ],
+    "dates": [
+      "2017-11-21",
+      "2018-04-13"
+    ],
+    "name": "Non-Local NN",
+    "source": "CVPR 2018",
+    "title": "Non-local Neural Networks",
+    "url": "https://arxiv.org/abs/1711.07971"
   }
 ]

@@ -151,3 +151,8 @@ PolygonRNN,CVPR 2017,https://arxiv.org/abs/1704.05548
 PolygonRNN++,CVPR 2018,https://arxiv.org/abs/1803.09693
 Curve-GCN,CVPR 2019,https://arxiv.org/abs/1903.06874
 RandWireNN,Arxiv,https://arxiv.org/abs/1904.01569
+PSPNet,CVPR 2017,https://arxiv.org/abs/1612.01105
+DensePose,CVPR 2018,https://arxiv.org/abs/1802.00434
+Detectron,Github,https://github.com/facebookresearch/Detectron
+R-FCN,Arxiv,https://arxiv.org/abs/1605.06409
+Non-Local NN,CVPR 2018,https://arxiv.org/abs/1711.07971
