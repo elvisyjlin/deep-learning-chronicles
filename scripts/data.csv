@@ -158,3 +158,10 @@ R-FCN,Arxiv,https://arxiv.org/abs/1605.06409
 Non-Local NN,CVPR 2018,https://arxiv.org/abs/1711.07971
 OpenPose,CVPR 2017,https://arxiv.org/abs/1611.08050
 CrowdPose,CVPR 2019,https://arxiv.org/abs/1812.00324
+DeepLab v1,ICLR 2015,https://arxiv.org/abs/1412.7062
+DeepLab v2,TPAMI 2017,https://arxiv.org/abs/1606.00915
+DeepLab v3,Arxiv,https://arxiv.org/abs/1706.05587
+DeepLab v3+,ECCV 2018,https://arxiv.org/abs/1802.02611
+RefineNet,CVPR 2017,https://arxiv.org/abs/1611.06612
+Large Kernel Matters,CVPR 2017,https://arxiv.org/abs/1703.02719
+BiSeNet,ECCV 2018,https://arxiv.org/abs/1808.00897

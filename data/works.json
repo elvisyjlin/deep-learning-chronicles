@@ -2622,5 +2622,128 @@
     "source": "CVPR 2019",
     "title": "CrowdPose: Efficient Crowded Scenes Pose Estimation and A New Benchmark",
     "url": "https://arxiv.org/abs/1812.00324"
+  },
+  {
+    "abstract": "Deep Convolutional Neural Networks (DCNNs) have recently shown state of the art performance in high level vision tasks, such as image classification and object detection. This work brings together methods from DCNNs and probabilistic graphical models for addressing the task of pixel-level classification (also called \"semantic image segmentation\"). We show that responses at the final layer of DCNNs are not sufficiently localized for accurate object segmentation. This is due to the very invariance properties that make DCNNs good for high level tasks. We overcome this poor localization property of deep networks by combining the responses at the final DCNN layer with a fully connected Conditional Random Field (CRF). Qualitatively, our \"DeepLab\" system is able to localize segment boundaries at a level of accuracy which is beyond previous methods. Quantitatively, our method sets the new state-of-art at the PASCAL VOC-2012 semantic image segmentation task, reaching 71.6% IOU accuracy in the test set. We show how these results can be obtained efficiently: Careful network re-purposing and a novel application of the 'hole' algorithm from the wavelet community allow dense computation of neural net responses at 8 frames per second on a modern GPU.",
+    "authors": [
+      "Liang-Chieh Chen",
+      "George Papandreou",
+      "Iasonas Kokkinos",
+      "Kevin Murphy",
+      "Alan L. Yuille"
+    ],
+    "dates": [
+      "2014-12-22",
+      "2016-06-07"
+    ],
+    "name": "DeepLab v1",
+    "source": "ICLR 2015",
+    "title": "Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
+    "url": "https://arxiv.org/abs/1412.7062"
+  },
+  {
+    "abstract": "In this work we address the task of semantic image segmentation with Deep Learning and make three main contributions that are experimentally shown to have substantial practical merit. First, we highlight convolution with upsampled filters, or 'atrous convolution', as a powerful tool in dense prediction tasks. Atrous convolution allows us to explicitly control the resolution at which feature responses are computed within Deep Convolutional Neural Networks. It also allows us to effectively enlarge the field of view of filters to incorporate larger context without increasing the number of parameters or the amount of computation. Second, we propose atrous spatial pyramid pooling (ASPP) to robustly segment objects at multiple scales. ASPP probes an incoming convolutional feature layer with filters at multiple sampling rates and effective fields-of-views, thus capturing objects as well as image context at multiple scales. Third, we improve the localization of object boundaries by combining methods from DCNNs and probabilistic graphical models. The commonly deployed combination of max-pooling and downsampling in DCNNs achieves invariance but has a toll on localization accuracy. We overcome this by combining the responses at the final DCNN layer with a fully connected Conditional Random Field (CRF), which is shown both qualitatively and quantitatively to improve localization performance. Our proposed \"DeepLab\" system sets the new state-of-art at the PASCAL VOC-2012 semantic image segmentation task, reaching 79.7% mIOU in the test set, and advances the results on three other datasets: PASCAL-Context, PASCAL-Person-Part, and Cityscapes. All of our code is made publicly available online.",
+    "authors": [
+      "Liang-Chieh Chen",
+      "George Papandreou",
+      "Iasonas Kokkinos",
+      "Kevin Murphy",
+      "Alan L. Yuille"
+    ],
+    "dates": [
+      "2016-06-02",
+      "2017-05-12"
+    ],
+    "name": "DeepLab v2",
+    "source": "TPAMI 2017",
+    "title": "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+    "url": "https://arxiv.org/abs/1606.00915"
+  },
+  {
+    "abstract": "In this work, we revisit atrous convolution, a powerful tool to explicitly adjust filter's field-of-view as well as control the resolution of feature responses computed by Deep Convolutional Neural Networks, in the application of semantic image segmentation. To handle the problem of segmenting objects at multiple scales, we design modules which employ atrous convolution in cascade or in parallel to capture multi-scale context by adopting multiple atrous rates. Furthermore, we propose to augment our previously proposed Atrous Spatial Pyramid Pooling module, which probes convolutional features at multiple scales, with image-level features encoding global context and further boost performance. We also elaborate on implementation details and share our experience on training our system. The proposed `DeepLabv3' system significantly improves over our previous DeepLab versions without DenseCRF post-processing and attains comparable performance with other state-of-art models on the PASCAL VOC 2012 semantic image segmentation benchmark.",
+    "authors": [
+      "Liang-Chieh Chen",
+      "George Papandreou",
+      "Florian Schroff",
+      "Hartwig Adam"
+    ],
+    "dates": [
+      "2017-06-17",
+      "2017-12-05"
+    ],
+    "name": "DeepLab v3",
+    "source": "Arxiv",
+    "title": "Rethinking Atrous Convolution for Semantic Image Segmentation",
+    "url": "https://arxiv.org/abs/1706.05587"
+  },
+  {
+    "abstract": "Spatial pyramid pooling module or encode-decoder structure are used in deep neural networks for semantic segmentation task. The former networks are able to encode multi-scale contextual information by probing the incoming features with filters or pooling operations at multiple rates and multiple effective fields-of-view, while the latter networks can capture sharper object boundaries by gradually recovering the spatial information. In this work, we propose to combine the advantages from both methods. Specifically, our proposed model, DeepLabv3+, extends DeepLabv3 by adding a simple yet effective decoder module to refine the segmentation results especially along object boundaries. We further explore the Xception model and apply the depthwise separable convolution to both Atrous Spatial Pyramid Pooling and decoder modules, resulting in a faster and stronger encoder-decoder network. We demonstrate the effectiveness of the proposed model on PASCAL VOC 2012 and Cityscapes datasets, achieving the test set performance of 89.0\\% and 82.1\\% without any post-processing. Our paper is accompanied with a publicly available reference implementation of the proposed models in Tensorflow at \\url{this https URL}.",
+    "authors": [
+      "Liang-Chieh Chen",
+      "Yukun Zhu",
+      "George Papandreou",
+      "Florian Schroff",
+      "Hartwig Adam"
+    ],
+    "dates": [
+      "2018-02-07",
+      "2018-08-22"
+    ],
+    "name": "DeepLab v3+",
+    "source": "ECCV 2018",
+    "title": "Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation",
+    "url": "https://arxiv.org/abs/1802.02611"
+  },
+  {
+    "abstract": "Recently, very deep convolutional neural networks (CNNs) have shown outstanding performance in object recognition and have also been the first choice for dense classification problems such as semantic segmentation. However, repeated subsampling operations like pooling or convolution striding in deep CNNs lead to a significant decrease in the initial image resolution. Here, we present RefineNet, a generic multi-path refinement network that explicitly exploits all the information available along the down-sampling process to enable high-resolution prediction using long-range residual connections. In this way, the deeper layers that capture high-level semantic features can be directly refined using fine-grained features from earlier convolutions. The individual components of RefineNet employ residual connections following the identity mapping mindset, which allows for effective end-to-end training. Further, we introduce chained residual pooling, which captures rich background context in an efficient manner. We carry out comprehensive experiments and set new state-of-the-art results on seven public datasets. In particular, we achieve an intersection-over-union score of 83.4 on the challenging PASCAL VOC 2012 dataset, which is the best reported result to date.",
+    "authors": [
+      "Guosheng Lin",
+      "Anton Milan",
+      "Chunhua Shen",
+      "Ian Reid"
+    ],
+    "dates": [
+      "2016-11-20",
+      "2016-11-25"
+    ],
+    "name": "RefineNet",
+    "source": "CVPR 2017",
+    "title": "RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation",
+    "url": "https://arxiv.org/abs/1611.06612"
+  },
+  {
+    "abstract": "One of recent trends [30, 31, 14] in network architec- ture design is stacking small filters (e.g., 1x1 or 3x3) in the entire network because the stacked small filters is more ef- ficient than a large kernel, given the same computational complexity. However, in the field of semantic segmenta- tion, where we need to perform dense per-pixel prediction, we find that the large kernel (and effective receptive field) plays an important role when we have to perform the clas- sification and localization tasks simultaneously. Following our design principle, we propose a Global Convolutional Network to address both the classification and localization issues for the semantic segmentation. We also suggest a residual-based boundary refinement to further refine the ob- ject boundaries. Our approach achieves state-of-art perfor- mance on two public benchmarks and significantly outper- forms previous results, 82.2% (vs 80.2%) on PASCAL VOC 2012 dataset and 76.9% (vs 71.8%) on Cityscapes dataset.",
+    "authors": [
+      "Chao Peng",
+      "Xiangyu Zhang",
+      "Gang Yu",
+      "Guiming Luo",
+      "Jian Sun"
+    ],
+    "dates": [
+      "2017-03-08"
+    ],
+    "name": "Large Kernel Matters",
+    "source": "CVPR 2017",
+    "title": "Large Kernel Matters -- Improve Semantic Segmentation by Global Convolutional Network",
+    "url": "https://arxiv.org/abs/1703.02719"
+  },
+  {
+    "abstract": "Semantic segmentation requires both rich spatial information and sizeable receptive field. However, modern approaches usually compromise spatial resolution to achieve real-time inference speed, which leads to poor performance. In this paper, we address this dilemma with a novel Bilateral Segmentation Network (BiSeNet). We first design a Spatial Path with a small stride to preserve the spatial information and generate high-resolution features. Meanwhile, a Context Path with a fast downsampling strategy is employed to obtain sufficient receptive field. On top of the two paths, we introduce a new Feature Fusion Module to combine features efficiently. The proposed architecture makes a right balance between the speed and segmentation performance on Cityscapes, CamVid, and COCO-Stuff datasets. Specifically, for a 2048x1024 input, we achieve 68.4% Mean IOU on the Cityscapes test dataset with speed of 105 FPS on one NVIDIA Titan XP card, which is significantly faster than the existing methods with comparable performance.",
+    "authors": [
+      "Changqian Yu",
+      "Jingbo Wang",
+      "Chao Peng",
+      "Changxin Gao",
+      "Gang Yu",
+      "Nong Sang"
+    ],
+    "dates": [
+      "2018-08-02"
+    ],
+    "name": "BiSeNet",
+    "source": "ECCV 2018",
+    "title": "BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation",
+    "url": "https://arxiv.org/abs/1808.00897"
   }
 ]
