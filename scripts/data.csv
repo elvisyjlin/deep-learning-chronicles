@@ -156,3 +156,5 @@ DensePose,CVPR 2018,https://arxiv.org/abs/1802.00434
 Detectron,Github,https://github.com/facebookresearch/Detectron
 R-FCN,Arxiv,https://arxiv.org/abs/1605.06409
 Non-Local NN,CVPR 2018,https://arxiv.org/abs/1711.07971
+OpenPose,CVPR 2017,https://arxiv.org/abs/1611.08050
+CrowdPose,CVPR 2019,https://arxiv.org/abs/1812.00324

@@ -2586,5 +2586,41 @@
     "source": "CVPR 2018",
     "title": "Non-local Neural Networks",
     "url": "https://arxiv.org/abs/1711.07971"
+  },
+  {
+    "abstract": "We present an approach to efficiently detect the 2D pose of multiple people in an image. The approach uses a nonparametric representation, which we refer to as Part Affinity Fields (PAFs), to learn to associate body parts with individuals in the image. The architecture encodes global context, allowing a greedy bottom-up parsing step that maintains high accuracy while achieving realtime performance, irrespective of the number of people in the image. The architecture is designed to jointly learn part locations and their association via two branches of the same sequential prediction process. Our method placed first in the inaugural COCO 2016 keypoints challenge, and significantly exceeds the previous state-of-the-art result on the MPII Multi-Person benchmark, both in performance and efficiency.",
+    "authors": [
+      "Zhe Cao",
+      "Tomas Simon",
+      "Shih-En Wei",
+      "Yaser Sheikh"
+    ],
+    "dates": [
+      "2016-11-24",
+      "2017-04-14"
+    ],
+    "name": "OpenPose",
+    "source": "CVPR 2017",
+    "title": "Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+    "url": "https://arxiv.org/abs/1611.08050"
+  },
+  {
+    "abstract": "Multi-person pose estimation is fundamental to many computer vision tasks and has made significant progress in recent years. However, few previous methods explored the problem of pose estimation in crowded scenes while it remains challenging and inevitable in many scenarios. Moreover, current benchmarks cannot provide an appropriate evaluation for such cases. In this paper, we propose a novel and efficient method to tackle the problem of pose estimation in the crowd and a new dataset to better evaluate algorithms. Our model consists of two key components: joint-candidate single person pose estimation (SPPE) and global maximum joints association. With multi-peak prediction for each joint and global association using graph model, our method is robust to inevitable interference in crowded scenes and very efficient in inference. The proposed method surpasses the state-of-the-art methods on CrowdPose dataset by 5.2 mAP and results on MSCOCO dataset demonstrate the generalization ability of our method. Source code and dataset will be made publicly available.",
+    "authors": [
+      "Jiefeng Li",
+      "Can Wang",
+      "Hao Zhu",
+      "Yihuan Mao",
+      "Hao-Shu Fang",
+      "Cewu Lu"
+    ],
+    "dates": [
+      "2018-12-02",
+      "2019-01-23"
+    ],
+    "name": "CrowdPose",
+    "source": "CVPR 2019",
+    "title": "CrowdPose: Efficient Crowded Scenes Pose Estimation and A New Benchmark",
+    "url": "https://arxiv.org/abs/1812.00324"
   }
 ]
