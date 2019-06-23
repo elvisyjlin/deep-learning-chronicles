@@ -2745,5 +2745,58 @@
     "source": "ECCV 2018",
     "title": "BiSeNet: Bilateral Segmentation Network for Real-time Semantic Segmentation",
     "url": "https://arxiv.org/abs/1808.00897"
+  },
+  {
+    "abstract": "This paper introduces a new encoder-decoder architecture that is trained to reconstruct images by disentangling the salient information of the image and the values of attributes directly in the latent space. As a result, after training, our model can generate different realistic versions of an input image by varying the attribute values. By using continuous attribute values, we can choose how much a specific attribute is perceivable in the generated image. This property could allow for applications where users can modify an image using sliding knobs, like faders on a mixing console, to change the facial expression of a portrait, or to update the color of some objects. Compared to the state-of-the-art which mostly relies on training adversarial networks in pixel space by altering attribute values at train time, our approach results in much simpler training schemes and nicely scales to multiple attributes. We present evidence that our model can significantly change the perceived value of the attributes while preserving the naturalness of images.",
+    "authors": [
+      "Guillaume Lample",
+      "Neil Zeghidour",
+      "Nicolas Usunier",
+      "Antoine Bordes",
+      "Ludovic Denoyer",
+      "Marc'Aurelio Ranzato"
+    ],
+    "dates": [
+      "2017-06-01",
+      "2018-01-28"
+    ],
+    "name": "Fader Networks",
+    "source": "NIPS 2017",
+    "title": "Fader Networks: Manipulating Images by Sliding Attributes",
+    "url": "https://arxiv.org/abs/1706.00409"
+  },
+  {
+    "abstract": "With the capability of modeling bidirectional contexts, denoising autoencoding based pretraining like BERT achieves better performance than pretraining approaches based on autoregressive language modeling. However, relying on corrupting the input with masks, BERT neglects dependency between the masked positions and suffers from a pretrain-finetune discrepancy. In light of these pros and cons, we propose XLNet, a generalized autoregressive pretraining method that (1) enables learning bidirectional contexts by maximizing the expected likelihood over all permutations of the factorization order and (2) overcomes the limitations of BERT thanks to its autoregressive formulation. Furthermore, XLNet integrates ideas from Transformer-XL, the state-of-the-art autoregressive model, into pretraining. Empirically, XLNet outperforms BERT on 20 tasks, often by a large margin, and achieves state-of-the-art results on 18 tasks including question answering, natural language inference, sentiment analysis, and document ranking.",
+    "authors": [
+      "Zhilin Yang",
+      "Zihang Dai",
+      "Yiming Yang",
+      "Jaime Carbonell",
+      "Ruslan Salakhutdinov",
+      "Quoc V. Le"
+    ],
+    "dates": [
+      "2019-06-19"
+    ],
+    "name": "XLNet",
+    "source": "Arxiv",
+    "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+    "url": "https://arxiv.org/abs/1906.08237"
+  },
+  {
+    "abstract": "We present a simple, fully-convolutional model for real-time instance segmentation that achieves 29.8 mAP on MS COCO at 33 fps evaluated on a single Titan Xp, which is significantly faster than any previous competitive approach. Moreover, we obtain this result after training on only one GPU. We accomplish this by breaking instance segmentation into two parallel subtasks: (1) generating a set of prototype masks and (2) predicting per-instance mask coefficients. Then we produce instance masks by linearly combining the prototypes with the mask coefficients. We find that because this process doesn't depend on repooling, this approach produces very high-quality masks and exhibits temporal stability for free. Furthermore, we analyze the emergent behavior of our prototypes and show they learn to localize instances on their own in a translation variant manner, despite being fully-convolutional. Finally, we also propose Fast NMS, a drop-in 12 ms faster replacement for standard NMS that only has a marginal performance penalty.",
+    "authors": [
+      "Daniel Bolya",
+      "Chong Zhou",
+      "Fanyi Xiao",
+      "Yong Jae Lee"
+    ],
+    "dates": [
+      "2019-04-04"
+    ],
+    "name": "YOLACT",
+    "source": NaN,
+    "title": "YOLACT: Real-time Instance Segmentation",
+    "url": "https://arxiv.org/abs/1904.02689"
   }
 ]
