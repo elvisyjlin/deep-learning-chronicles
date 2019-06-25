@@ -2798,5 +2798,99 @@
     "source": NaN,
     "title": "YOLACT: Real-time Instance Segmentation",
     "url": "https://arxiv.org/abs/1904.02689"
+  },
+  {
+    "abstract": "Recently, several models based on deep neural networks have achieved great success in terms of both reconstruction accuracy and computational performance for single image super-resolution. In these methods, the low resolution (LR) input image is upscaled to the high resolution (HR) space using a single filter, commonly bicubic interpolation, before reconstruction. This means that the super-resolution (SR) operation is performed in HR space. We demonstrate that this is sub-optimal and adds computational complexity. In this paper, we present the first convolutional neural network (CNN) capable of real-time SR of 1080p videos on a single K2 GPU. To achieve this, we propose a novel CNN architecture where the feature maps are extracted in the LR space. In addition, we introduce an efficient sub-pixel convolution layer which learns an array of upscaling filters to upscale the final LR feature maps into the HR output. By doing so, we effectively replace the handcrafted bicubic filter in the SR pipeline with more complex upscaling filters specifically trained for each feature map, whilst also reducing the computational complexity of the overall SR operation. We evaluate the proposed approach using images and videos from publicly available datasets and show that it performs significantly better (+0.15dB on Images and +0.39dB on Videos) and is an order of magnitude faster than previous CNN-based methods.",
+    "authors": [
+      "Wenzhe Shi",
+      "Jose Caballero",
+      "Ferenc Husz\u00e1r",
+      "Johannes Totz",
+      "Andrew P. Aitken",
+      "Rob Bishop",
+      "Daniel Rueckert",
+      "Zehan Wang"
+    ],
+    "dates": [
+      "2016-09-16",
+      "2016-09-23"
+    ],
+    "name": "Sub-Pixel CNN",
+    "source": "CVPR 2016",
+    "title": "Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network",
+    "url": "https://arxiv.org/abs/1609.05158"
+  },
+  {
+    "abstract": "Scene parsing is challenging for unrestricted open vocabulary and diverse scenes. In this paper, we exploit the capability of global context information by different-region-based context aggregation through our pyramid pooling module together with the proposed pyramid scene parsing network (PSPNet). Our global prior representation is effective to produce good quality results on the scene parsing task, while PSPNet provides a superior framework for pixel-level prediction tasks. The proposed approach achieves state-of-the-art performance on various datasets. It came first in ImageNet scene parsing challenge 2016, PASCAL VOC 2012 benchmark and Cityscapes benchmark. A single PSPNet yields new record of mIoU accuracy 85.4% on PASCAL VOC 2012 and accuracy 80.2% on Cityscapes.",
+    "authors": [
+      "Hengshuang Zhao",
+      "Jianping Shi",
+      "Xiaojuan Qi",
+      "Xiaogang Wang",
+      "Jiaya Jia"
+    ],
+    "dates": [
+      "2016-12-04",
+      "2017-04-27"
+    ],
+    "name": "Pyramid Scene Parsing Network",
+    "source": "CVPR 2017",
+    "title": "Pyramid Scene Parsing Network",
+    "url": "https://arxiv.org/abs/1612.01105"
+  },
+  {
+    "abstract": "We introduce a fast and efficient convolutional neural network, ESPNet, for semantic segmentation of high resolution images under resource constraints. ESPNet is based on a new convolutional module, efficient spatial pyramid (ESP), which is efficient in terms of computation, memory, and power. ESPNet is 22 times faster (on a standard GPU) and 180 times smaller than the state-of-the-art semantic segmentation network PSPNet, while its category-wise accuracy is only 8% less. We evaluated ESPNet on a variety of semantic segmentation datasets including Cityscapes, PASCAL VOC, and a breast biopsy whole slide image dataset. Under the same constraints on memory and computation, ESPNet outperforms all the current efficient CNN networks such as MobileNet, ShuffleNet, and ENet on both standard metrics and our newly introduced performance metrics that measure efficiency on edge devices. Our network can process high resolution images at a rate of 112 and 9 frames per second on a standard GPU and edge device, respectively.",
+    "authors": [
+      "Sachin Mehta",
+      "Mohammad Rastegari",
+      "Anat Caspi",
+      "Linda Shapiro",
+      "Hannaneh Hajishirzi"
+    ],
+    "dates": [
+      "2018-03-19",
+      "2018-07-25"
+    ],
+    "name": "ESPNet",
+    "source": "ECCV 2018",
+    "title": "ESPNet: Efficient Spatial Pyramid of Dilated Convolutions for Semantic Segmentation",
+    "url": "https://arxiv.org/abs/1803.06815"
+  },
+  {
+    "abstract": "In this paper, we address the scene segmentation task by capturing rich contextual dependencies based on the selfattention mechanism. Unlike previous works that capture contexts by multi-scale features fusion, we propose a Dual Attention Networks (DANet) to adaptively integrate local features with their global dependencies. Specifically, we append two types of attention modules on top of traditional dilated FCN, which model the semantic interdependencies in spatial and channel dimensions respectively. The position attention module selectively aggregates the features at each position by a weighted sum of the features at all positions. Similar features would be related to each other regardless of their distances. Meanwhile, the channel attention module selectively emphasizes interdependent channel maps by integrating associated features among all channel maps. We sum the outputs of the two attention modules to further improve feature representation which contributes to more precise segmentation results. We achieve new state-of-the-art segmentation performance on three challenging scene segmentation datasets, i.e., Cityscapes, PASCAL Context and COCO Stuff dataset. In particular, a Mean IoU score of 81.5% on Cityscapes test set is achieved without using coarse data. We make the code and trained model publicly available at this https URL",
+    "authors": [
+      "Jun Fu",
+      "Jing Liu",
+      "Haijie Tian",
+      "Yong Li",
+      "Yongjun Bao",
+      "Zhiwei Fang",
+      "Hanqing Lu"
+    ],
+    "dates": [
+      "2018-09-09",
+      "2019-04-21"
+    ],
+    "name": "Dual Attention Network",
+    "source": "CVPR 2019",
+    "title": "Dual Attention Network for Scene Segmentation",
+    "url": "https://arxiv.org/abs/1809.02983"
+  },
+  {
+    "abstract": "We introduce a light-weight, power efficient, and general purpose convolutional neural network, ESPNetv2, for modeling visual and sequential data. Our network uses group point-wise and depth-wise dilated separable convolutions to learn representations from a large effective receptive field with fewer FLOPs and parameters. The performance of our network is evaluated on four different tasks: (1) object classification, (2) semantic segmentation, (3) object detection, and (4) language modeling. Experiments on these tasks, including image classification on the ImageNet and language modeling on the PenTree bank dataset, demonstrate the superior performance of our method over the state-of-the-art methods. Our network outperforms ESPNet by 4-5% and has 2-4x fewer FLOPs on the PASCAL VOC and the Cityscapes dataset. Compared to YOLOv2 on the MS-COCO object detection, ESPNetv2 delivers 4.4% higher accuracy with 6x fewer FLOPs. Our experiments show that ESPNetv2 is much more power efficient than existing state-of-the-art efficient methods including ShuffleNets and MobileNets. Our code is open-source and available at this https URL",
+    "authors": [
+      "Sachin Mehta",
+      "Mohammad Rastegari",
+      "Linda Shapiro",
+      "Hannaneh Hajishirzi"
+    ],
+    "dates": [
+      "2018-11-28",
+      "2019-03-30"
+    ],
+    "name": "ESPNetv2",
+    "source": "CVPR 2019",
+    "title": "ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network",
+    "url": "https://arxiv.org/abs/1811.11431"
   }
 ]
