@@ -173,3 +173,8 @@ Pyramid Scene Parsing Network,CVPR 2017,https://arxiv.org/abs/1612.01105
 ESPNet,ECCV 2018,https://arxiv.org/abs/1803.06815
 Dual Attention Network,CVPR 2019,https://arxiv.org/abs/1809.02983
 ESPNetv2,CVPR 2019,https://arxiv.org/abs/1811.11431
+MASS,ICML 2019,https://arxiv.org/abs/1905.02450
+Deep Image Prior,CVPR 2018,https://sites.skoltech.ru/app/data/uploads/sites/25/2018/04/deep_image_prior.pdf
+Shift-Net,ECCV 2018,https://arxiv.org/abs/1801.09392
+SiamMask,CVPR 2019,https://arxiv.org/abs/1812.05050
+EfficientNet,ICML 2019,https://arxiv.org/abs/1905.11946

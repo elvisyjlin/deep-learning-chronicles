@@ -2892,5 +2892,73 @@
     "source": "CVPR 2019",
     "title": "ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network",
     "url": "https://arxiv.org/abs/1811.11431"
+  },
+  {
+    "abstract": "Pre-training and fine-tuning, e.g., BERT, have achieved great success in language understanding by transferring knowledge from rich-resource pre-training task to the low/zero-resource downstream tasks. Inspired by the success of BERT, we propose MAsked Sequence to Sequence pre-training (MASS) for the encoder-decoder based language generation tasks. MASS adopts the encoder-decoder framework to reconstruct a sentence fragment given the remaining part of the sentence: its encoder takes a sentence with randomly masked fragment (several consecutive tokens) as input, and its decoder tries to predict this masked fragment. In this way, MASS can jointly train the encoder and decoder to develop the capability of representation extraction and language modeling. By further fine-tuning on a variety of zero/low-resource language generation tasks, including neural machine translation, text summarization and conversational response generation (3 tasks and totally 8 datasets), MASS achieves significant improvements over the baselines without pre-training or with other pre-training methods. Specially, we achieve the state-of-the-art accuracy (37.5 in terms of BLEU score) on the unsupervised English-French translation, even beating the early attention-based supervised model.",
+    "authors": [
+      "Kaitao Song",
+      "Xu Tan",
+      "Tao Qin",
+      "Jianfeng Lu",
+      "Tie-Yan Liu"
+    ],
+    "dates": [
+      "2019-05-07",
+      "2019-06-21"
+    ],
+    "name": "MASS",
+    "source": "ICML 2019",
+    "title": "MASS: Masked Sequence to Sequence Pre-training for Language Generation",
+    "url": "https://arxiv.org/abs/1905.02450"
+  },
+  {
+    "abstract": "Deep convolutional networks (CNNs) have exhibited their potential in image inpainting for producing plausible results. However, in most existing methods, e.g., context encoder, the missing parts are predicted by propagating the surrounding convolutional features through a fully connected layer, which intends to produce semantically plausible but blurry result. In this paper, we introduce a special shift-connection layer to the U-Net architecture, namely Shift-Net, for filling in missing regions of any shape with sharp structures and fine-detailed textures. To this end, the encoder feature of the known region is shifted to serve as an estimation of the missing parts. A guidance loss is introduced on decoder feature to minimize the distance between the decoder feature after fully connected layer and the ground-truth encoder feature of the missing parts. With such constraint, the decoder feature in missing region can be used to guide the shift of encoder feature in known region. An end-to-end learning algorithm is further developed to train the Shift-Net. Experiments on the Paris StreetView and Places datasets demonstrate the efficiency and effectiveness of our Shift-Net in producing sharper, fine-detailed, and visually plausible results. The codes and pre-trained models are available at this https URL.",
+    "authors": [
+      "Zhaoyi Yan",
+      "Xiaoming Li",
+      "Mu Li",
+      "Wangmeng Zuo",
+      "Shiguang Shan"
+    ],
+    "dates": [
+      "2018-01-29",
+      "2018-04-13"
+    ],
+    "name": "Shift-Net",
+    "source": "ECCV 2018",
+    "title": "Shift-Net: Image Inpainting via Deep Feature Rearrangement",
+    "url": "https://arxiv.org/abs/1801.09392"
+  },
+  {
+    "abstract": "In this paper we illustrate how to perform both visual object tracking and semi-supervised video object segmentation, in real-time, with a single simple approach. Our method, dubbed SiamMask, improves the offline training procedure of popular fully-convolutional Siamese approaches for object tracking by augmenting their loss with a binary segmentation task. Once trained, SiamMask solely relies on a single bounding box initialisation and operates online, producing class-agnostic object segmentation masks and rotated bounding boxes at 35 frames per second. Despite its simplicity, versatility and fast speed, our strategy allows us to establish a new state-of-the-art among real-time trackers on VOT-2018, while at the same time demonstrating competitive performance and the best speed for the semi-supervised video object segmentation task on DAVIS-2016 and DAVIS-2017. The project website is this http URL.",
+    "authors": [
+      "Qiang Wang",
+      "Li Zhang",
+      "Luca Bertinetto",
+      "Weiming Hu",
+      "Philip H.S. Torr"
+    ],
+    "dates": [
+      "2018-12-12"
+    ],
+    "name": "SiamMask",
+    "source": "CVPR 2019",
+    "title": "Fast Online Object Tracking and Segmentation: A Unifying Approach",
+    "url": "https://arxiv.org/abs/1812.05050"
+  },
+  {
+    "abstract": "Convolutional Neural Networks (ConvNets) are commonly developed at a fixed resource budget, and then scaled up for better accuracy if more resources are available. In this paper, we systematically study model scaling and identify that carefully balancing network depth, width, and resolution can lead to better performance. Based on this observation, we propose a new scaling method that uniformly scales all dimensions of depth/width/resolution using a simple yet highly effective compound coefficient. We demonstrate the effectiveness of this method on scaling up MobileNets and ResNet. To go even further, we use neural architecture search to design a new baseline network and scale it up to obtain a family of models, called EfficientNets, which achieve much better accuracy and efficiency than previous ConvNets. In particular, our EfficientNet-B7 achieves state-of-the-art 84.4% top-1 / 97.1% top-5 accuracy on ImageNet, while being 8.4x smaller and 6.1x faster on inference than the best existing ConvNet. Our EfficientNets also transfer well and achieve state-of-the-art accuracy on CIFAR-100 (91.7%), Flowers (98.8%), and 3 other transfer learning datasets, with an order of magnitude fewer parameters. Source code is at this https URL.",
+    "authors": [
+      "Mingxing Tan",
+      "Quoc V. Le"
+    ],
+    "dates": [
+      "2019-05-28",
+      "2019-06-10"
+    ],
+    "name": "EfficientNet",
+    "source": "ICML 2019",
+    "title": "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks",
+    "url": "https://arxiv.org/abs/1905.11946"
   }
 ]
